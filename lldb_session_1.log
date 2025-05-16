@@ -1,0 +1,363 @@
+(lldb) target create "./point_3d"
+[2mLocating external symbol file: point_3d...[0m[K[2K[2mLocating external symbol file: point_3d...[0m[K[2K[2mLoading DWARF5 index: point_3d...[0m[K[2K[2mLocating external symbol file: dyld...[0m[K[2K[2mLocating external symbol file: dyld...[0m[K[2K[2mParsing symbol table: dyld...[0m[K[2K[2mLocating external symbol file: libSystem.B.dylib...[0m[K[2K[2mLocating external symbol file: libSystem.B.dylib...[0m[K[2K[2mParsing symbol table: libSystem.B.dylib...[0m[K[2K[2mLocating external symbol file: libcache.dylib...[0m[K[2K[2mLocating external symbol file: libcache.dylib...[0m[K[2K[2mParsing symbol table: libcache.dylib...[0m[K[2K[2mLocating external symbol file: libcommonCrypto.dylib...[0m[K[2K[2mLocating external symbol file: libcommonCrypto.dylib...[0m[K[2K[2mParsing symbol table: libcommonCrypto.dylib...[0m[K[2K[2mLocating external symbol file: libcompiler_rt.dylib...[0m[K[2K[2mLocating external symbol file: libcompiler_rt.dylib...[0m[K[2K[2mParsing symbol table: libcompiler_rt.dylib...[0m[K[2K[2mLocating external symbol file: libcopyfile.dylib...[0m[K[2K[2mLocating external symbol file: libcopyfile.dylib...[0m[K[2K[2mParsing symbol table: libcopyfile.dylib...[0m[K[2K[2mLocating external symbol file: libcorecrypto.dylib...[0m[K[2K[2mLocating external symbol file: libcorecrypto.dylib...[0m[K[2K[2mParsing symbol table: libcorecrypto.dylib...[0m[K[2K[2mLocating external symbol file: libdispatch.dylib...[0m[K[2K[2mLocating external symbol file: libdispatch.dylib...[0m[K[2K[2mParsing symbol table: libdispatch.dylib...[0m[K[2K[2mLocating external symbol file: libdyld.dylib...[0m[K[2K[2mLocating external symbol file: libdyld.dylib...[0m[K[2K[2mParsing symbol table: libdyld.dylib...[0m[K[2K[2mLocating external symbol file: libkeymgr.dylib...[0m[K[2K[2mLocating external symbol file: libkeymgr.dylib...[0m[K[2K[2mParsing symbol table: libkeymgr.dylib...[0m[K[2K[2mLocating external symbol file: libmacho.dylib...[0m[K[2K[2mLocating external symbol file: libmacho.dylib...[0m[K[2K[2mParsing symbol table: libmacho.dylib...[0m[K[2K[2mLocating external symbol file: libquarantine.dylib...[0m[K[2K[2mLocating external symbol file: libquarantine.dylib...[0m[K[2K[2mParsing symbol table: libquarantine.dylib...[0m[K[2K[2mLocating external symbol file: libremovefile.dylib...[0m[K[2K[2mLocating external symbol file: libremovefile.dylib...[0m[K[2K[2mParsing symbol table: libremovefile.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_asl.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_asl.dylib...[0m[K[2K[2mParsing symbol table: libsystem_asl.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_blocks.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_blocks.dylib...[0m[K[2K[2mParsing symbol table: libsystem_blocks.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_c.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_c.dylib...[0m[K[2K[2mParsing symbol table: libsystem_c.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_collections.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_collections.dylib...[0m[K[2K[2mParsing symbol table: libsystem_collections.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_configuration.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_configuration.dylib...[0m[K[2K[2mParsing symbol table: libsystem_configuration.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_containermanager.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_containermanager.dylib...[0m[K[2K[2mParsing symbol table: libsystem_containermanager.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_coreservices.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_coreservices.dylib...[0m[K[2K[2mParsing symbol table: libsystem_coreservices.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_darwin.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_darwin.dylib...[0m[K[2K[2mParsing symbol table: libsystem_darwin.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_darwindirectory.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_darwindirectory.dylib...[0m[K[2K[2mParsing symbol table: libsystem_darwindirectory.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_dnssd.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_dnssd.dylib...[0m[K[2K[2mParsing symbol table: libsystem_dnssd.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_eligibility.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_eligibility.dylib...[0m[K[2K[2mParsing symbol table: libsystem_eligibility.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_featureflags.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_featureflags.dylib...[0m[K[2K[2mParsing symbol table: libsystem_featureflags.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_info.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_info.dylib...[0m[K[2K[2mParsing symbol table: libsystem_info.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_m.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_m.dylib...[0m[K[2K[2mParsing symbol table: libsystem_m.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_malloc.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_malloc.dylib...[0m[K[2K[2mParsing symbol table: libsystem_malloc.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_networkextension.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_networkextension.dylib...[0m[K[2K[2mParsing symbol table: libsystem_networkextension.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_notify.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_notify.dylib...[0m[K[2K[2mParsing symbol table: libsystem_notify.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_sandbox.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_sandbox.dylib...[0m[K[2K[2mParsing symbol table: libsystem_sandbox.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_sanitizers.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_sanitizers.dylib...[0m[K[2K[2mParsing symbol table: libsystem_sanitizers.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_secinit.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_secinit.dylib...[0m[K[2K[2mParsing symbol table: libsystem_secinit.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_kernel.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_kernel.dylib...[0m[K[2K[2mParsing symbol table: libsystem_kernel.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_platform.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_platform.dylib...[0m[K[2K[2mParsing symbol table: libsystem_platform.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_pthread.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_pthread.dylib...[0m[K[2K[2mParsing symbol table: libsystem_pthread.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_symptoms.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_symptoms.dylib...[0m[K[2K[2mParsing symbol table: libsystem_symptoms.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_trace.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_trace.dylib...[0m[K[2K[2mParsing symbol table: libsystem_trace.dylib...[0m[K[2K[2mLocating external symbol file: libunwind.dylib...[0m[K[2K[2mLocating external symbol file: libunwind.dylib...[0m[K[2K[2mParsing symbol table: libunwind.dylib...[0m[K[2K[2mLocating external symbol file: libxpc.dylib...[0m[K[2K[2mLocating external symbol file: libxpc.dylib...[0m[K[2K[2mParsing symbol table: libxpc.dylib...[0m[K[2K[2mLocating external symbol file: libobjc.A.dylib...[0m[K[2K[2mLocating external symbol file: libobjc.A.dylib...[0m[K[2K[2mParsing symbol table: libobjc.A.dylib...[0m[K[2K[2mLocating external symbol file: libc++abi.dylib...[0m[K[2K[2mLocating external symbol file: libc++abi.dylib...[0m[K[2K[2mParsing symbol table: libc++abi.dylib...[0m[K[2K[2mLocating external symbol file: liboah.dylib...[0m[K[2K[2mLocating external symbol file: liboah.dylib...[0m[K[2K[2mParsing symbol table: liboah.dylib...[0m[K[2K[2mLocating external symbol file: libc++.1.dylib...[0m[K[2K[2mLocating external symbol file: libc++.1.dylib...[0m[K[2K[2mParsing symbol table: libc++.1.dylib...[0m[K[2K[2mParsing symbol table: point_3d...[0m[K[2K[2mLocating external symbol file: point_3d...[0m[K[2K[2mLocating external symbol file: point_3d...[0m[K[2KCurrent executable set to '/Users/konstantinmokrousov/Desktop/2_sem/point_3d' (arm64).
+(lldb) settings set -- target.run-args  "load" "inf.txt"
+(lldb) [1G[2m(lldb) [0m[8Gb main.c:62
+Breakpoint 1: where = point_3d`main + 492 at main.c:62:12, address = 0x0000000100001054
+(lldb) [1G[2m(lldb) [0m[8Gb main.c [1G[2m(lldb) [0m[16G:k[K[1G[2m(lldb) [0m[17G53
+Breakpoint 2: where = point_3d`main + 372 at main.c:55:31, address = 0x0000000100000fdc
+(lldb) [1G[2m(lldb) [0m[8G fio[K[1G[2m(lldb) [0m[11G[K[1G[2m(lldb) [0m[10G[K[1G[2m(lldb) [0m[9G[1G[2m(lldb) [0m[8Gb fiodict.c [1G[2m(lldb) [0m[20G: 55
+Breakpoint 3: where = point_3d`load_def + 24 at fiodict.c:56:44, address = 0x0000000100002fc4
+(lldb) [1G[2m(lldb) [0m[8Gb fiodict.c : 55[1G[2m(lldb) [0m[24G[K[1G[2m(lldb) [0m[23G[K[1G[2m(lldb) [0m[22G69
+Breakpoint 4: where = point_3d`load_def + 220 at fiodict.c:69:37, address = 0x0000000100003088
+(lldb) [1G[2m(lldb) [0m[8Gd[K[1G[2m(lldb) [0m[8Gb fiodict.c : 69[1G[2m(lldb) [0m[24G[K[1G[2m(lldb) [0m[23G[K[1G[2m(lldb) [0m[22G101
+Breakpoint 5: where = point_3d`load_struct_dict + 44 at fiodict.c:101:44, address = 0x0000000100003124
+(lldb) [1G[2m(lldb) [0m[8Gb fiodict.c : 101[1G[2m(lldb) [0m[25G[K[1G[2m(lldb) [0m[24G6
+Breakpoint 6: where = point_3d`load_struct_dict + 136 at fiodict.c:106:46, address = 0x0000000100003180
+(lldb) [1G[2m(lldb) [0m[8Gb fiodict.c : 106[1G[2m(lldb) [0m[25G1[1G[2m(lldb) [0m[25G[K[1G[2m(lldb) [0m[24G[K[1G[2m(lldb) [0m[23G40
+Breakpoint 7: where = point_3d`load_struct_dict + 888 at fiodict.c:141:14, address = 0x0000000100003470
+(lldb) [1G[2m(lldb) [0m[8Gb fiodict.c : 140[1G[2m(lldb) [0m[25G[K[1G[2m(lldb) [0m[24G5
+Breakpoint 8: where = point_3d`load_struct_dict + 956 at fiodict.c:145:10, address = 0x00000001000034b4
+(lldb) [1G[2m(lldb) [0m[8Gr
+Process 62381 launched: '/Users/konstantinmokrousov/Desktop/2_sem/point_3d' (arm64)
+Process 62381 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mbreakpoint 2.1[0m
+    frame #0: [33m0x0000000100000fdc[0m point_3d`main(argc=3, argv=0x000000016fdff010) at [36mmain.c[0m:[33m55[0m:[33m31[0m
+[33m  [0m 52  	    [32mif[0m (*(*(argv + [31m1[0m) + [31m1[0m) == [31m'o'[0m)
+[33m  [0m 53  	    {
+[33m  [0m 54  	
+[33m->[0m 55  	      mkDict *dict = load_def([4mf[0m, val, COUNT_EL);
+[33m  [0m 56  	      mkPair *cur = get_head(dict);
+[33m  [0m 57  	      dict_feach(dict);
+[33m  [0m 58  	      printf("%s \t %f\n", ([32mchar[0m *)cur->key, ((Point3d *)cur->value)->a);
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 62381 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mbreakpoint 3.1[0m
+    frame #0: [33m0x0000000100002fc4[0m point_3d`load_def(f=0x00000002089d10c8, val=0x000000012df04440, count_el=100) at [36mfiodict.c[0m:[33m56[0m:[33m44[0m
+[33m  [0m 53  	}
+[33m  [0m 54  	mkDict *load_def(FILE *f, [32munsigned[0m [32mint[0m *val, [32mint[0m count_el)
+[33m  [0m 55  	{
+[33m->[0m 56  	    [32mchar[0m **words = malloc([32msizeof[0m([32mchar[0m *) * [4mcount_el[0m);
+[33m  [0m 57  	    [32mif[0m (words == NULL)
+[33m  [0m 58  	        exit(EXIT_FAILURE);
+[33m  [0m 59  	    [32mfor[0m ([32mint[0m i = [31m0[0m; i < count_el; i++)
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gfas[K[1G[2m(lldb) [0m[10G[K[1G[2m(lldb) [0m[9G[K[1G[2m(lldb) [0m[8Gmemory read words
+0x16fdfeea8: 60 a7 90 09 02 00 00 00 00 00 00 00 00 00 00 00  `...............
+0x16fdfeeb8: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 62381 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100002fd8[0m point_3d`load_def(f=0x00000002089d10c8, val=0x000000012df04440, count_el=100) at [36mfiodict.c[0m:[33m57[0m:[33m9[0m
+[33m  [0m 54  	mkDict *load_def(FILE *f, [32munsigned[0m [32mint[0m *val, [32mint[0m count_el)
+[33m  [0m 55  	{
+[33m  [0m 56  	    [32mchar[0m **words = malloc([32msizeof[0m([32mchar[0m *) * count_el);
+[33m->[0m 57  	    [32mif[0m ([4mwords[0m == NULL)
+[33m  [0m 58  	        exit(EXIT_FAILURE);
+[33m  [0m 59  	    [32mfor[0m ([32mint[0m i = [31m0[0m; i < count_el; i++)
+[33m  [0m 60  	    {
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn[1G[2m(lldb) [0m[9Gmemory read words[1G[2m(lldb) [0m[25G
+0x12e904080: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x12e904090: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+(lldb) [1G[2m(lldb) [0m[8Gа[K[1G[2m(lldb) [0m[8Gf
+frame #0: [33m0x0000000100002fd8[0m point_3d`load_def(f=0x00000002089d10c8, val=0x000000012df04440, count_el=100) at [36mfiodict.c[0m:[33m57[0m:[33m9[0m
+[33m  [0m 54  	mkDict *load_def(FILE *f, [32munsigned[0m [32mint[0m *val, [32mint[0m count_el)
+[33m  [0m 55  	{
+[33m  [0m 56  	    [32mchar[0m **words = malloc([32msizeof[0m([32mchar[0m *) * count_el);
+[33m->[0m 57  	    [32mif[0m ([4mwords[0m == NULL)
+[33m  [0m 58  	        exit(EXIT_FAILURE);
+[33m  [0m 59  	    [32mfor[0m ([32mint[0m i = [31m0[0m; i < count_el; i++)
+[33m  [0m 60  	    {
+(lldb) [1G[2m(lldb) [0m[8Gn[K[1G[2m(lldb) [0m[8Gc
+Process 62381 resuming
+Process 62381 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mbreakpoint 4.1[0m
+    frame #0: [33m0x0000000100003088[0m point_3d`load_def(f=0x00000002089d10c8, val=0x000000012df04440, count_el=100) at [36mfiodict.c[0m:[33m69[0m:[33m37[0m
+[33m  [0m 66  	
+[33m  [0m 67  	        [35m// printf("%s\n", *(words + i));[0m
+[33m  [0m 68  	    }
+[33m->[0m 69  	    mkDict *dict = load_struct_dict([4mwords[0m, count_el, val);
+[33m  [0m 70  	    [32mfor[0m ([32mint[0m i = [31m0[0m; i < count_el; i++)
+[33m  [0m 71  	    {
+[33m  [0m 72  	        free(*(words + i));
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 62381 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mbreakpoint 5.1[0m
+    frame #0: [33m0x0000000100003124[0m point_3d`load_struct_dict(words=0x000000012e904080, count_el=100, val=0x000000012df04440) at [36mfiodict.c[0m:[33m101[0m:[33m44[0m
+[33m  [0m 98  	}
+[33m  [0m 99  	mkDict *load_struct_dict([32mchar[0m **words, [32mint[0m count_el, [32munsigned[0m [32mint[0m *val)
+[33m  [0m 100 	{
+[33m->[0m 101 	    [32mint[0m **numbers = malloc([32msizeof[0m([32mint[0m *) * [4mcount_el[0m);
+[33m  [0m 102 	    [32mfor[0m ([32mint[0m i = [31m0[0m; i < count_el; i++)
+[33m  [0m 103 	    {
+[33m  [0m 104 	        numbers[i] = malloc([32msizeof[0m([32mint[0m) * [31m7[0m);
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gьуьщ[K[1G[2m(lldb) [0m[11G[K[1G[2m(lldb) [0m[10G[K[1G[2m(lldb) [0m[9G[K[1G[2m(lldb) [0m[8Gmemory read numbers
+0x10003d404: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x10003d414: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 62381 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100003138[0m point_3d`load_struct_dict(words=0x000000012e904080, count_el=100, val=0x000000012df04440) at [36mfiodict.c[0m:[33m102[0m:[33m14[0m
+[33m  [0m 99  	mkDict *load_struct_dict([32mchar[0m **words, [32mint[0m count_el, [32munsigned[0m [32mint[0m *val)
+[33m  [0m 100 	{
+[33m  [0m 101 	    [32mint[0m **numbers = malloc([32msizeof[0m([32mint[0m *) * count_el);
+[33m->[0m 102 	    [32mfor[0m ([32mint[0m [4mi[0m = [31m0[0m; i < count_el; i++)
+[33m  [0m 103 	    {
+[33m  [0m 104 	        numbers[i] = malloc([32msizeof[0m([32mint[0m) * [31m7[0m);
+[33m  [0m 105 	    }
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn[1G[2m(lldb) [0m[9Gmemory read numbers[1G[2m(lldb) [0m[27G
+0x12ea04080: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x12ea04090: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 62381 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100003158[0m point_3d`load_struct_dict(words=0x000000012e904080, count_el=100, val=0x000000012df04440) at [36mfiodict.c[0m:[33m104[0m:[33m22[0m
+[33m  [0m 101 	    [32mint[0m **numbers = malloc([32msizeof[0m([32mint[0m *) * count_el);
+[33m  [0m 102 	    [32mfor[0m ([32mint[0m i = [31m0[0m; i < count_el; i++)
+[33m  [0m 103 	    {
+[33m->[0m 104 	        numbers[i] = [4mmalloc[0m([32msizeof[0m([32mint[0m) * [31m7[0m);
+[33m  [0m 105 	    }
+[33m  [0m 106 	    Point3d **p = malloc([32msizeof[0m(Point3d *) * count_el);
+[33m  [0m 107 	    mkDict *dict = dict_create();
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gmemory read numbers [1G[2m(lldb) [0m[27G[0[[K[1G[2m(lldb) [0m[29G]
+[0;1;31merror: [0mmemory read failed for 0x0
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 62381 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x000000010000316c[0m point_3d`load_struct_dict(words=0x000000012e904080, count_el=100, val=0x000000012df04440) at [36mfiodict.c[0m:[33m105[0m:[33m5[0m
+[33m  [0m 102 	    [32mfor[0m ([32mint[0m i = [31m0[0m; i < count_el; i++)
+[33m  [0m 103 	    {
+[33m  [0m 104 	        numbers[i] = malloc([32msizeof[0m([32mint[0m) * [31m7[0m);
+[33m->[0m 105 	    [4m}[0m
+[33m  [0m 106 	    Point3d **p = malloc([32msizeof[0m(Point3d *) * count_el);
+[33m  [0m 107 	    mkDict *dict = dict_create();
+[33m  [0m 108 	
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gmem[K[1G[2m(lldb) [0m[10G[K[1G[2m(lldb) [0m[9G[K[1G[2m(lldb) [0m[8Gn[1G[2m(lldb) [0m[9Gmemory read numbers[0][1G[2m(lldb) [0m[30G
+0x12eb04080: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x12eb04090: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+(lldb) [1G[2m(lldb) [0m[8Gc
+Process 62381 resuming
+Process 62381 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mbreakpoint 6.1[0m
+    frame #0: [33m0x0000000100003180[0m point_3d`load_struct_dict(words=0x000000012e904080, count_el=100, val=0x000000012df04440) at [36mfiodict.c[0m:[33m106[0m:[33m46[0m
+[33m  [0m 103 	    {
+[33m  [0m 104 	        numbers[i] = malloc([32msizeof[0m([32mint[0m) * [31m7[0m);
+[33m  [0m 105 	    }
+[33m->[0m 106 	    Point3d **p = malloc([32msizeof[0m(Point3d *) * [4mcount_el[0m);
+[33m  [0m 107 	    mkDict *dict = dict_create();
+[33m  [0m 108 	
+[33m  [0m 109 	    [32mfor[0m ([32mint[0m i = [31m0[0m; i < count_el; i++)
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gmemory read p
+0x10003dc7c: 01 00 00 00 00 00 00 2f 01 00 00 00 00 00 00 2f  ......./......./
+0x10003dc8c: 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+(lldb) [1G[2m(lldb) [0m[8Gmemory read p[1G[2m(lldb) [0m[21G[K[1G[2m(lldb) [0m[20Gdict
+0x10003dc88: 00 00 00 2f 01 00 00 00 00 00 00 00 00 00 00 00  .../............
+0x10003dc98: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 62381 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100003194[0m point_3d`load_struct_dict(words=0x000000012e904080, count_el=100, val=0x000000012df04440) at [36mfiodict.c[0m:[33m107[0m:[33m20[0m
+[33m  [0m 104 	        numbers[i] = malloc([32msizeof[0m([32mint[0m) * [31m7[0m);
+[33m  [0m 105 	    }
+[33m  [0m 106 	    Point3d **p = malloc([32msizeof[0m(Point3d *) * count_el);
+[33m->[0m 107 	    mkDict *dict = [4mdict_create[0m();
+[33m  [0m 108 	
+[33m  [0m 109 	    [32mfor[0m ([32mint[0m i = [31m0[0m; i < count_el; i++)
+[33m  [0m 110 	    {
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 62381 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x000000010000319c[0m point_3d`load_struct_dict(words=0x000000012e904080, count_el=100, val=0x000000012df04440) at [36mfiodict.c[0m:[33m109[0m:[33m14[0m
+[33m  [0m 106 	    Point3d **p = malloc([32msizeof[0m(Point3d *) * count_el);
+[33m  [0m 107 	    mkDict *dict = dict_create();
+[33m  [0m 108 	
+[33m->[0m 109 	    [32mfor[0m ([32mint[0m [4mi[0m = [31m0[0m; i < count_el; i++)
+[33m  [0m 110 	    {
+[33m  [0m 111 	        [32mint[0m count = [31m0[0m;
+[33m  [0m 112 	        [32mconst[0m [32mchar[0m *line = *(words + i);
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn[1G[2m(lldb) [0m[9Gmemory read dict[1G[2m(lldb) [0m[24Gp[K[1G[2m(lldb) [0m[21G
+0x12e804330: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x12e804340: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+(lldb) [1G[2m(lldb) [0m[8Gmemory read p[1G[2m(lldb) [0m[21G[8Gn[K[1G[2m(lldb) [0m[9Gmemory read dict[1G[2m(lldb) [0m[24G
+0x12e90ba60: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x12e90ba70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+(lldb) [1G[2m(lldb) [0m[8Gf
+frame #0: [33m0x000000010000319c[0m point_3d`load_struct_dict(words=0x000000012e904080, count_el=100, val=0x000000012df04440) at [36mfiodict.c[0m:[33m109[0m:[33m14[0m
+[33m  [0m 106 	    Point3d **p = malloc([32msizeof[0m(Point3d *) * count_el);
+[33m  [0m 107 	    mkDict *dict = dict_create();
+[33m  [0m 108 	
+[33m->[0m 109 	    [32mfor[0m ([32mint[0m [4mi[0m = [31m0[0m; i < count_el; i++)
+[33m  [0m 110 	    {
+[33m  [0m 111 	        [32mint[0m count = [31m0[0m;
+[33m  [0m 112 	        [32mconst[0m [32mchar[0m *line = *(words + i);
+(lldb) [1G[2m(lldb) [0m[8Gf
+frame #0: [33m0x000000010000319c[0m point_3d`load_struct_dict(words=0x000000012e904080, count_el=100, val=0x000000012df04440) at [36mfiodict.c[0m:[33m109[0m:[33m14[0m
+[33m  [0m 106 	    Point3d **p = malloc([32msizeof[0m(Point3d *) * count_el);
+[33m  [0m 107 	    mkDict *dict = dict_create();
+[33m  [0m 108 	
+[33m->[0m 109 	    [32mfor[0m ([32mint[0m [4mi[0m = [31m0[0m; i < count_el; i++)
+[33m  [0m 110 	    {
+[33m  [0m 111 	        [32mint[0m count = [31m0[0m;
+[33m  [0m 112 	        [32mconst[0m [32mchar[0m *line = *(words + i);
+(lldb) [1G[2m(lldb) [0m[8Gc
+Process 62381 resuming
+Process 62381 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mbreakpoint 7.1[0m
+    frame #0: [33m0x0000000100003470[0m point_3d`load_struct_dict(words=0x000000012e904080, count_el=100, val=0x000000012df04440) at [36mfiodict.c[0m:[33m141[0m:[33m14[0m
+[33m  [0m 138 	    }
+[33m  [0m 139 	    free(p);
+[33m  [0m 140 	
+[33m->[0m 141 	    [32mfor[0m ([32mint[0m [4mi[0m = [31m0[0m; i < count_el; i++)
+[33m  [0m 142 	    {
+[33m  [0m 143 	        free(numbers[i]);
+[33m  [0m 144 	    }
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 62381 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100003490[0m point_3d`load_struct_dict(words=0x000000012e904080, count_el=100, val=0x000000012df04440) at [36mfiodict.c[0m:[33m143[0m:[33m14[0m
+[33m  [0m 140 	
+[33m  [0m 141 	    [32mfor[0m ([32mint[0m i = [31m0[0m; i < count_el; i++)
+[33m  [0m 142 	    {
+[33m->[0m 143 	        free([4mnumbers[0m[i]);
+[33m  [0m 144 	    }
+[33m  [0m 145 	    free(numbers);
+[33m  [0m 146 	    [32mreturn[0m dict;
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gmemory read numbers[0[[K[1G[2m(lldb) [0m[29G]
+0x12eb04080: 20 01 00 00 23 03 00 00 91 01 00 00 22 00 00 00   ...#......."...
+0x12eb04090: 05 00 00 00 05 00 00 00 01 00 00 00 00 00 00 00  ................
+(lldb) [1G[2m(lldb) [0m[8Gmemory read numbers[0][1G[2m(lldb) [0m[30G[1@-n[1G[2m(lldb) [0m[21G[1@fn[1G[2m(lldb) [0m[22G[1@ n[1G[2m(lldb) [0m[23G[1@in[1G[2m(lldb) [0m[24G[1@ n[1G[2m(lldb) [0m[25G
+[33m   [0m 0x12eb04080: udf    [0;31m#0x120[0m
+[33m   [0m 0x12eb04084: udf    [0;31m#0x323[0m
+(lldb) [1G[2m(lldb) [0m[8Gp numbers[0]
+(int *) 0x000000012eb04080
+(lldb) [1G[2m(lldb) [0m[8Gp numbers[0][1G[2m(lldb) [0m[20Gers[0][K[1G[2m(lldb) [0m[19G[K[1G[2m(lldb) [0m[18G[K[1G[2m(lldb) [0m[17G[K[1G[2m(lldb) [0m[16G[K[1G[2m(lldb) [0m[15G[K[1G[2m(lldb) [0m[14G[K[1G[2m(lldb) [0m[13G[K[1G[2m(lldb) [0m[12G[K[1G[2m(lldb) [0m[11G[K[1G[2m(lldb) [0m[10G[1G[2m(lldb) [0m[9G[K[1G[2m(lldb) [0m[8Gx/10d numbers[0]
+0x12eb04080: 288
+0x12eb04084: 803
+0x12eb04088: 401
+0x12eb0408c: 34
+0x12eb04090: 5
+0x12eb04094: 5
+0x12eb04098: 1
+0x12eb0409c: 0
+0x12eb040a0: 104
+0x12eb040a4: 66
+(lldb) [1G[2m(lldb) [0m[8Gmemory read number[K[1G[2m(lldb) [0m[25G[K[1G[2m(lldb) [0m[24G[K[1G[2m(lldb) [0m[23G[K[1G[2m(lldb) [0m[22G[K[1G[2m(lldb) [0m[21G[K[1G[2m(lldb) [0m[20G[1G[2m(lldb) [0m[19G[K[1G[2m(lldb) [0m[18G[K[1G[2m(lldb) [0m[17G[K[1G[2m(lldb) [0m[16G[K[1G[2m(lldb) [0m[15G[1G[2m(lldb) [0m[14G[K[1G[2m(lldb) [0m[13G[K[1G[2m(lldb) [0m[12G[K[1G[2m(lldb) [0m[11G[K[1G[2m(lldb) [0m[10G[K[1G[2m(lldb) [0m[9G[K[1G[2m(lldb) [0m[8Gf
+frame #0: [33m0x0000000100003490[0m point_3d`load_struct_dict(words=0x000000012e904080, count_el=100, val=0x000000012df04440) at [36mfiodict.c[0m:[33m143[0m:[33m14[0m
+[33m  [0m 140 	
+[33m  [0m 141 	    [32mfor[0m ([32mint[0m i = [31m0[0m; i < count_el; i++)
+[33m  [0m 142 	    {
+[33m->[0m 143 	        free([4mnumbers[0m[i]);
+[33m  [0m 144 	    }
+[33m  [0m 145 	    free(numbers);
+[33m  [0m 146 	    [32mreturn[0m dict;
+(lldb) [1G[2m(lldb) [0m[8Gmemory read[[K[1G[2m(lldb) [0m[19G numbers[0[[K[1G[2m(lldb) [0m[29G]
+0x12eb04080: 20 01 00 00 23 03 00 00 91 01 00 00 22 00 00 00   ...#......."...
+0x12eb04090: 05 00 00 00 05 00 00 00 01 00 00 00 00 00 00 00  ................
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 62381 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x00000001000034a0[0m point_3d`load_struct_dict(words=0x000000012e904080, count_el=100, val=0x000000012df04440) at [36mfiodict.c[0m:[33m144[0m:[33m5[0m
+[33m  [0m 141 	    [32mfor[0m ([32mint[0m i = [31m0[0m; i < count_el; i++)
+[33m  [0m 142 	    {
+[33m  [0m 143 	        free(numbers[i]);
+[33m->[0m 144 	    [4m}[0m
+[33m  [0m 145 	    free(numbers);
+[33m  [0m 146 	    [32mreturn[0m dict;
+[33m  [0m 147 	}
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn[1G[2m(lldb) [0m[9Gmemory read numbers[0][1G[2m(lldb) [0m[30G
+0x12eb04080: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x12eb04090: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+(lldb) [1G[2m(lldb) [0m[8Gp numbers
+(int **) 0x000000012ea04080
+(lldb) [1G[2m(lldb) [0m[8Gp numbers[1G[2m(lldb) [0m[17G[0]
+(int *) 0x000000012eb04080
+(lldb) [1G[2m(lldb) [0m[8Gc[K[1G[2m(lldb) [0m[8Gadfa[K[1G[2m(lldb) [0m[11G[K[1G[2m(lldb) [0m[10G[K[1G[2m(lldb) [0m[9G[K[1G[2m(lldb) [0m[8Gc
+Process 62381 resuming
+Process 62381 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mbreakpoint 8.1[0m
+    frame #0: [33m0x00000001000034b4[0m point_3d`load_struct_dict(words=0x000000012e904080, count_el=100, val=0x000000012df04440) at [36mfiodict.c[0m:[33m145[0m:[33m10[0m
+[33m  [0m 142 	    {
+[33m  [0m 143 	        free(numbers[i]);
+[33m  [0m 144 	    }
+[33m->[0m 145 	    free([4mnumbers[0m);
+[33m  [0m 146 	    [32mreturn[0m dict;
+[33m  [0m 147 	}
+[33m  [0m 148 	[32mvoid[0m get_element_from_text_file(FILE *f, [32mint[0m index)
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gp[K[1G[2m(lldb) [0m[8Gmemory [1G[2m(lldb) [0m[14G[K[1G[2m(lldb) [0m[13G[K[1G[2m(lldb) [0m[12G[K[1G[2m(lldb) [0m[11G[K[1G[2m(lldb) [0m[10G[K[1G[2m(lldb) [0m[9G[K[1G[2m(lldb) [0m[8Gmemory read numbers
+0x12ea04080: 80 40 b0 2e 01 00 00 00 a0 40 b0 2e 01 00 00 00  .@.......@......
+0x12ea04090: c0 40 b0 2e 01 00 00 00 e0 40 b0 2e 01 00 00 00  .@.......@......
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 62381 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x00000001000034bc[0m point_3d`load_struct_dict(words=0x000000012e904080, count_el=100, val=0x000000012df04440) at [36mfiodict.c[0m:[33m146[0m:[33m12[0m
+[33m  [0m 143 	        free(numbers[i]);
+[33m  [0m 144 	    }
+[33m  [0m 145 	    free(numbers);
+[33m->[0m 146 	    [32mreturn[0m [4mdict[0m;
+[33m  [0m 147 	}
+[33m  [0m 148 	[32mvoid[0m get_element_from_text_file(FILE *f, [32mint[0m index)
+[33m  [0m 149 	{
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn[1G[2m(lldb) [0m[9Gmemory read numbers[1G[2m(lldb) [0m[27G
+0x12ea04080: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x12ea04090: 32 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  2...............
+(lldb) [1G[2m(lldb) [0m[8Gmemory read numbers[1G[2m(lldb) [0m[27G[Pn[1G[2m(lldb) [0m[19G[Pn[1G[2m(lldb) [0m[18G[Pn[1G[2m(lldb) [0m[17G[Pn[1G[2m(lldb) [0m[16G[Pn[1G[2m(lldb) [0m[15G[Pn[1G[2m(lldb) [0m[14G[Pn[1G[2m(lldb) [0m[13G[Pn[1G[2m(lldb) [0m[12G[Pn[1G[2m(lldb) [0m[11G[Pn[1G[2m(lldb) [0m[10G[Pn[1G[2m(lldb) [0m[9G[Pn[1G[2m(lldb) [0m[8G[1@pn[1G[2m(lldb) [0m[9G[1@ n[1G[2m(lldb) [0m[10G
+(int **) 0x000000012ea04080
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 62381 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100003098[0m point_3d`load_def(f=0x00000002089d10c8, val=0x000000012df04440, count_el=100) at [36mfiodict.c[0m:[33m69[0m:[33m13[0m
+[33m  [0m 66  	
+[33m  [0m 67  	        [35m// printf("%s\n", *(words + i));[0m
+[33m  [0m 68  	    }
+[33m->[0m 69  	    mkDict *[4mdict[0m = load_struct_dict(words, count_el, val);
+[33m  [0m 70  	    [32mfor[0m ([32mint[0m i = [31m0[0m; i < count_el; i++)
+[33m  [0m 71  	    {
+[33m  [0m 72  	        free(*(words + i));
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn[1G[2m(lldb) [0m[9Gp numbers[1G[2m(lldb) [0m[17G[8G[10@memory read[27G[1G[2m(lldb) [0m[27G
+[0;1;31merror: [0minvalid start address expression.
+[0;1;31merror: [0maddress expression "numbers" evaluation failed
+(lldb) [1G[2m(lldb) [0m[8Gmemory read numbers[1G[2m(lldb) [0m[27G[K[1G[2m(lldb) [0m[26G[K[1G[2m(lldb) [0m[25G[K[1G[2m(lldb) [0m[24G[K[1G[2m(lldb) [0m[23G[K[1G[2m(lldb) [0m[22G[K[1G[2m(lldb) [0m[21G[K[1G[2m(lldb) [0m[20G[1G[2m(lldb) [0m[19G dict
+[0;1;31merror: [0mmemory read failed for 0x1b6
+(lldb) [1G[2m(lldb) [0m[8Gmemory read dict[1G[2m(lldb) [0m[24G[8G[K[1G[2m(lldb) [0m[8G[1G[2m(lldb) [0m[8Gf
+frame #0: [33m0x0000000100003098[0m point_3d`load_def(f=0x00000002089d10c8, val=0x000000012df04440, count_el=100) at [36mfiodict.c[0m:[33m69[0m:[33m13[0m
+[33m  [0m 66  	
+[33m  [0m 67  	        [35m// printf("%s\n", *(words + i));[0m
+[33m  [0m 68  	    }
+[33m->[0m 69  	    mkDict *[4mdict[0m = load_struct_dict(words, count_el, val);
+[33m  [0m 70  	    [32mfor[0m ([32mint[0m i = [31m0[0m; i < count_el; i++)
+[33m  [0m 71  	    {
+[33m  [0m 72  	        free(*(words + i));
+(lldb) [1G[2m(lldb) [0m[8Gf[1G[2m(lldb) [0m[9Gmemory read dict[1G[2m(lldb) [0m[24G
+[0;1;31merror: [0mmemory read failed for 0x1b6
+(lldb) [1G[2m(lldb) [0m[8Gmemory read dict[1G[2m(lldb) [0m[24G[8Gf[K[1G[2m(lldb) [0m[9G[K[1G[2m(lldb) [0m[8Gn
+Process 62381 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x000000010000309c[0m point_3d`load_def(f=0x00000002089d10c8, val=0x000000012df04440, count_el=100) at [36mfiodict.c[0m:[33m70[0m:[33m14[0m
+[33m  [0m 67  	        [35m// printf("%s\n", *(words + i));[0m
+[33m  [0m 68  	    }
+[33m  [0m 69  	    mkDict *dict = load_struct_dict(words, count_el, val);
+[33m->[0m 70  	    [32mfor[0m ([32mint[0m [4mi[0m = [31m0[0m; i < count_el; i++)
+[33m  [0m 71  	    {
+[33m  [0m 72  	        free(*(words + i));
+[33m  [0m 73  	    }
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn[1G[2m(lldb) [0m[9Gmemory read dict[1G[2m(lldb) [0m[24G
+0x12e90ba60: 40 51 d0 2e 01 00 00 00 64 00 00 00 00 00 00 00  @Q......d.......
+0x12e90ba70: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+(lldb) [1G[2m(lldb) [0m[8Gй[K[1G[2m(lldb) [0m[8Gq
+Quitting LLDB will kill one or more processes. Do you really want to proceed: [Y/n] y

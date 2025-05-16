@@ -1,0 +1,202 @@
+	.section	__TEXT,__text,regular,pure_instructions
+	.build_version macos, 15, 0	sdk_version 15, 2
+	.globl	_main                           ; -- Begin function main
+	.p2align	2
+_main:                                  ; @main
+	.cfi_startproc
+; %bb.0:
+	sub	sp, sp, #80
+	stp	x24, x23, [sp, #16]             ; 16-byte Folded Spill
+	stp	x22, x21, [sp, #32]             ; 16-byte Folded Spill
+	stp	x20, x19, [sp, #48]             ; 16-byte Folded Spill
+	stp	x29, x30, [sp, #64]             ; 16-byte Folded Spill
+	add	x29, sp, #64
+	.cfi_def_cfa w29, 16
+	.cfi_offset w30, -8
+	.cfi_offset w29, -16
+	.cfi_offset w19, -24
+	.cfi_offset w20, -32
+	.cfi_offset w21, -40
+	.cfi_offset w22, -48
+	.cfi_offset w23, -56
+	.cfi_offset w24, -64
+	mov	x20, x1
+	mov	x22, x0
+	mov	w0, #4                          ; =0x4
+	bl	_malloc
+	mov	x19, x0
+	mov	w8, #65535                      ; =0xffff
+	str	w8, [x0]
+	mov	x0, #0                          ; =0x0
+	bl	_time
+                                        ; kill: def $w0 killed $w0 killed $x0
+	bl	_srand
+	ldr	x8, [x20, #8]
+	ldrsb	w8, [x8]
+	cmp	w8, #103
+	b.eq	LBB0_8
+; %bb.1:
+	cmp	w8, #108
+	b.ne	LBB0_12
+; %bb.2:
+	cmp	w22, #3
+	b.lt	LBB0_20
+; %bb.3:
+	ldr	x0, [x20, #16]
+Lloh0:
+	adrp	x1, l_.str.1@PAGE
+Lloh1:
+	add	x1, x1, l_.str.1@PAGEOFF
+	bl	_fopen
+	cbz	x0, LBB0_20
+; %bb.4:
+	mov	x21, x0
+	ldr	x8, [x20, #8]
+	ldrb	w8, [x8, #1]
+	cmp	w8, #111
+	b.ne	LBB0_6
+; %bb.5:
+	mov	x0, x21
+	mov	x1, x19
+	mov	w2, #100                        ; =0x64
+	bl	_load_def
+	mov	x22, x0
+	bl	_get_head
+	mov	x23, x0
+	mov	x0, x22
+	bl	_dict_feach
+	ldp	x8, x9, [x23]
+	ldr	d0, [x9, #8]
+	str	d0, [sp, #8]
+	str	x8, [sp]
+Lloh2:
+	adrp	x0, l_.str.2@PAGE
+Lloh3:
+	add	x0, x0, l_.str.2@PAGEOFF
+	bl	_printf
+Lloh4:
+	adrp	x0, l_str@PAGE
+Lloh5:
+	add	x0, x0, l_str@PAGEOFF
+	bl	_puts
+Lloh6:
+	adrp	x1, l_.str.4@PAGE
+Lloh7:
+	add	x1, x1, l_.str.4@PAGEOFF
+	mov	x0, x22
+	bl	_dict_remove
+	mov	x0, x22
+	bl	_dict_feach
+	mov	x0, x22
+	bl	_free
+LBB0_6:
+	ldr	x8, [x20, #8]
+	ldrb	w8, [x8, #1]
+	cmp	w8, #105
+	b.ne	LBB0_17
+; %bb.7:
+	mov	x0, x21
+	mov	x1, x19
+	mov	w2, #100                        ; =0x64
+	bl	_list_f
+	b	LBB0_17
+LBB0_8:
+	cmp	w22, #3
+	b.lt	LBB0_20
+; %bb.9:
+	ldr	x0, [x20, #24]
+Lloh8:
+	adrp	x1, l_.str.1@PAGE
+Lloh9:
+	add	x1, x1, l_.str.1@PAGEOFF
+	bl	_fopen
+	cbz	x0, LBB0_20
+; %bb.10:
+	mov	x21, x0
+	cmp	w22, #4
+	b.lt	LBB0_15
+; %bb.11:
+	ldr	x0, [x20, #16]
+	bl	_atoi
+	mov	x1, x0
+	b	LBB0_16
+LBB0_12:
+	mov	w0, #100                        ; =0x64
+	mov	x1, x19
+	bl	_rand_gen_struct_in_container
+	cmp	w22, #3
+	b.lt	LBB0_20
+; %bb.13:
+	mov	x23, x0
+	ldr	x0, [x20, #16]
+Lloh10:
+	adrp	x1, l_.str@PAGE
+Lloh11:
+	add	x1, x1, l_.str@PAGEOFF
+	bl	_fopen
+	cbz	x0, LBB0_20
+; %bb.14:
+	mov	x21, x0
+	mov	x1, x23
+	mov	x2, x19
+	bl	_save_def
+	mov	x0, x23
+	bl	_dict_free
+	b	LBB0_17
+LBB0_15:
+	mov	w1, #0                          ; =0x0
+LBB0_16:
+	mov	x0, x21
+	bl	_get_element_from_text_file
+LBB0_17:
+	mov	x0, x21
+	bl	_fclose
+	cbz	w0, LBB0_19
+; %bb.18:
+Lloh12:
+	adrp	x0, l_.str.5@PAGE
+Lloh13:
+	add	x0, x0, l_.str.5@PAGEOFF
+	bl	_printf
+LBB0_19:
+	mov	x0, x19
+	bl	_free
+	mov	w0, #0                          ; =0x0
+	ldp	x29, x30, [sp, #64]             ; 16-byte Folded Reload
+	ldp	x20, x19, [sp, #48]             ; 16-byte Folded Reload
+	ldp	x22, x21, [sp, #32]             ; 16-byte Folded Reload
+	ldp	x24, x23, [sp, #16]             ; 16-byte Folded Reload
+	add	sp, sp, #80
+	ret
+LBB0_20:
+	mov	w0, #1                          ; =0x1
+	bl	_exit
+	.loh AdrpAdd	Lloh0, Lloh1
+	.loh AdrpAdd	Lloh6, Lloh7
+	.loh AdrpAdd	Lloh4, Lloh5
+	.loh AdrpAdd	Lloh2, Lloh3
+	.loh AdrpAdd	Lloh8, Lloh9
+	.loh AdrpAdd	Lloh10, Lloh11
+	.loh AdrpAdd	Lloh12, Lloh13
+	.cfi_endproc
+                                        ; -- End function
+	.section	__TEXT,__cstring,cstring_literals
+l_.str:                                 ; @.str
+	.asciz	"w+"
+
+l_.str.1:                               ; @.str.1
+	.asciz	"r"
+
+l_.str.2:                               ; @.str.2
+	.asciz	"%s \t %f\n"
+
+l_.str.4:                               ; @.str.4
+	.asciz	"key0"
+
+l_.str.5:                               ; @.str.5
+	.asciz	"\320\236\321\210\320\270\320\261\320\272\320\260 \320\267\320\260\320\272\321\200\321\213\321\202\320\270\321\217 \321\204\320\260\320\271\320\273\320\260"
+
+l_str:                                  ; @str
+	.asciz	"remove key0"
+
+.subsections_via_symbols

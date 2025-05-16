@@ -1,0 +1,912 @@
+(lldb) target create "./point_3d"
+[2mLocating external symbol file: point_3d...[0m[K[2K[2mLocating external symbol file: point_3d...[0m[K[2K[2mLoading DWARF5 index: point_3d...[0m[K[2K[2mLocating external symbol file: dyld...[0m[K[2K[2mLocating external symbol file: dyld...[0m[K[2K[2mParsing symbol table: dyld...[0m[K[2K[2mLocating external symbol file: libSystem.B.dylib...[0m[K[2K[2mLocating external symbol file: libSystem.B.dylib...[0m[K[2K[2mParsing symbol table: libSystem.B.dylib...[0m[K[2K[2mLocating external symbol file: libcache.dylib...[0m[K[2K[2mLocating external symbol file: libcache.dylib...[0m[K[2K[2mParsing symbol table: libcache.dylib...[0m[K[2K[2mLocating external symbol file: libcommonCrypto.dylib...[0m[K[2K[2mLocating external symbol file: libcommonCrypto.dylib...[0m[K[2K[2mParsing symbol table: libcommonCrypto.dylib...[0m[K[2K[2mLocating external symbol file: libcompiler_rt.dylib...[0m[K[2K[2mLocating external symbol file: libcompiler_rt.dylib...[0m[K[2K[2mParsing symbol table: libcompiler_rt.dylib...[0m[K[2K[2mLocating external symbol file: libcopyfile.dylib...[0m[K[2K[2mLocating external symbol file: libcopyfile.dylib...[0m[K[2K[2mParsing symbol table: libcopyfile.dylib...[0m[K[2K[2mLocating external symbol file: libcorecrypto.dylib...[0m[K[2K[2mLocating external symbol file: libcorecrypto.dylib...[0m[K[2K[2mParsing symbol table: libcorecrypto.dylib...[0m[K[2K[2mLocating external symbol file: libdispatch.dylib...[0m[K[2K[2mLocating external symbol file: libdispatch.dylib...[0m[K[2K[2mParsing symbol table: libdispatch.dylib...[0m[K[2K[2mLocating external symbol file: libdyld.dylib...[0m[K[2K[2mLocating external symbol file: libdyld.dylib...[0m[K[2K[2mParsing symbol table: libdyld.dylib...[0m[K[2K[2mLocating external symbol file: libkeymgr.dylib...[0m[K[2K[2mLocating external symbol file: libkeymgr.dylib...[0m[K[2K[2mParsing symbol table: libkeymgr.dylib...[0m[K[2K[2mLocating external symbol file: libmacho.dylib...[0m[K[2K[2mLocating external symbol file: libmacho.dylib...[0m[K[2K[2mParsing symbol table: libmacho.dylib...[0m[K[2K[2mLocating external symbol file: libquarantine.dylib...[0m[K[2K[2mLocating external symbol file: libquarantine.dylib...[0m[K[2K[2mParsing symbol table: libquarantine.dylib...[0m[K[2K[2mLocating external symbol file: libremovefile.dylib...[0m[K[2K[2mLocating external symbol file: libremovefile.dylib...[0m[K[2K[2mParsing symbol table: libremovefile.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_asl.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_asl.dylib...[0m[K[2K[2mParsing symbol table: libsystem_asl.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_blocks.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_blocks.dylib...[0m[K[2K[2mParsing symbol table: libsystem_blocks.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_c.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_c.dylib...[0m[K[2K[2mParsing symbol table: libsystem_c.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_collections.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_collections.dylib...[0m[K[2K[2mParsing symbol table: libsystem_collections.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_configuration.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_configuration.dylib...[0m[K[2K[2mParsing symbol table: libsystem_configuration.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_containermanager.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_containermanager.dylib...[0m[K[2K[2mParsing symbol table: libsystem_containermanager.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_coreservices.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_coreservices.dylib...[0m[K[2K[2mParsing symbol table: libsystem_coreservices.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_darwin.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_darwin.dylib...[0m[K[2K[2mParsing symbol table: libsystem_darwin.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_darwindirectory.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_darwindirectory.dylib...[0m[K[2K[2mParsing symbol table: libsystem_darwindirectory.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_dnssd.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_dnssd.dylib...[0m[K[2K[2mParsing symbol table: libsystem_dnssd.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_eligibility.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_eligibility.dylib...[0m[K[2K[2mParsing symbol table: libsystem_eligibility.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_featureflags.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_featureflags.dylib...[0m[K[2K[2mParsing symbol table: libsystem_featureflags.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_info.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_info.dylib...[0m[K[2K[2mParsing symbol table: libsystem_info.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_m.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_m.dylib...[0m[K[2K[2mParsing symbol table: libsystem_m.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_malloc.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_malloc.dylib...[0m[K[2K[2mParsing symbol table: libsystem_malloc.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_networkextension.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_networkextension.dylib...[0m[K[2K[2mParsing symbol table: libsystem_networkextension.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_notify.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_notify.dylib...[0m[K[2K[2mParsing symbol table: libsystem_notify.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_sandbox.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_sandbox.dylib...[0m[K[2K[2mParsing symbol table: libsystem_sandbox.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_sanitizers.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_sanitizers.dylib...[0m[K[2K[2mParsing symbol table: libsystem_sanitizers.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_secinit.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_secinit.dylib...[0m[K[2K[2mParsing symbol table: libsystem_secinit.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_kernel.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_kernel.dylib...[0m[K[2K[2mParsing symbol table: libsystem_kernel.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_platform.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_platform.dylib...[0m[K[2K[2mParsing symbol table: libsystem_platform.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_pthread.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_pthread.dylib...[0m[K[2K[2mParsing symbol table: libsystem_pthread.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_symptoms.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_symptoms.dylib...[0m[K[2K[2mParsing symbol table: libsystem_symptoms.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_trace.dylib...[0m[K[2K[2mLocating external symbol file: libsystem_trace.dylib...[0m[K[2K[2mParsing symbol table: libsystem_trace.dylib...[0m[K[2K[2mLocating external symbol file: libunwind.dylib...[0m[K[2K[2mLocating external symbol file: libunwind.dylib...[0m[K[2K[2mParsing symbol table: libunwind.dylib...[0m[K[2K[2mLocating external symbol file: libxpc.dylib...[0m[K[2K[2mLocating external symbol file: libxpc.dylib...[0m[K[2K[2mParsing symbol table: libxpc.dylib...[0m[K[2K[2mLocating external symbol file: libobjc.A.dylib...[0m[K[2K[2mLocating external symbol file: libobjc.A.dylib...[0m[K[2K[2mParsing symbol table: libobjc.A.dylib...[0m[K[2K[2mLocating external symbol file: libc++abi.dylib...[0m[K[2K[2mLocating external symbol file: libc++abi.dylib...[0m[K[2K[2mParsing symbol table: libc++abi.dylib...[0m[K[2K[2mLocating external symbol file: liboah.dylib...[0m[K[2K[2mLocating external symbol file: liboah.dylib...[0m[K[2K[2mParsing symbol table: liboah.dylib...[0m[K[2K[2mLocating external symbol file: libc++.1.dylib...[0m[K[2K[2mLocating external symbol file: libc++.1.dylib...[0m[K[2K[2mParsing symbol table: libc++.1.dylib...[0m[K[2K[2mParsing symbol table: point_3d...[0m[K[2K[2mLocating external symbol file: point_3d...[0m[K[2K[2mLocating external symbol file: point_3d...[0m[K[2KCurrent executable set to '/Users/konstantinmokrousov/Desktop/2_sem/point_3d' (arm64).
+(lldb) settings set -- target.run-args  "load" "inf.txt"
+(lldb) [1G[2m(lldb) [0m[8G b fiodict.c : 101
+Breakpoint 1: where = point_3d`load_struct_dict + 60 at fiodict.c:101:42, address = 0x00000001000033e4
+(lldb) [1G[2m(lldb) [0m[8G b fiodict.c : 129
+Breakpoint 2: where = point_3d`load_struct_dict + 160 at fiodict.c:129:32, address = 0x0000000100003448
+(lldb) [1G[2m(lldb) [0m[8G b fiodict.c : 139'[K[1G[2m(lldb) [0m[26G
+Breakpoint 3: where = point_3d`load_struct_dict + 424 at fiodict.c:141:5, address = 0x0000000100003550
+(lldb) [1G[2m(lldb) [0m[8G b fiodict.c : 145
+Breakpoint 4: where = point_3d`load_struct_dict + 456 at fiodict.c:145:5, address = 0x0000000100003570
+(lldb) [1G[2m(lldb) [0m[8Gr
+Process 39904 launched: '/Users/konstantinmokrousov/Desktop/2_sem/point_3d' (arm64)
+Process 39904 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mbreakpoint 1.1[0m
+    frame #0: [33m0x00000001000033e4[0m point_3d`load_struct_dict(words=0x0000000128704200, count_el=100, val=0x0000000128704080) at [36mfiodict.c[0m:[33m101[0m:[33m42[0m [opt]
+[33m  [0m 98  	}
+[33m  [0m 99  	mkDict *load_struct_dict([32mchar[0m **words, [32mint[0m count_el, [32munsigned[0m [32mint[0m *val)
+[33m  [0m 100 	{
+[33m->[0m 101 	    [32mint[0m **numbers = malloc([32msizeof[0m([32mint[0m *) [4m*[0m count_el);
+[33m  [0m 102 	    [32mfor[0m ([32mint[0m i = [31m0[0m; i < count_el; i++)
+[33m  [0m 103 	    {
+[33m  [0m 104 	        numbers[i] = malloc([32msizeof[0m([32mint[0m) * [31m7[0m);
+Target 0: (point_3d) stopped.
+[0;1;35mwarning[0m: point_3d was compiled with optimization - stepping may behave oddly; variables may not be available.
+(lldb) [1G[2m(lldb) [0m[8Gmemory read[K[1G[2m(lldb) [0m[18G[K[1G[2m(lldb) [0m[17G[K[1G[2m(lldb) [0m[16G[K[1G[2m(lldb) [0m[15G[1G[2m(lldb) [0m[14G[K[1G[2m(lldb) [0m[13G[K[1G[2m(lldb) [0m[12G[K[1G[2m(lldb) [0m[11G[K[1G[2m(lldb) [0m[10G[K[1G[2m(lldb) [0m[9G[K[1G[2m(lldb) [0m[8Gn
+Process 39904 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x00000001000033f4[0m point_3d`load_struct_dict(words=0x0000000128704200, count_el=100, val=0x0000000128704080) at [36mfiodict.c[0m:[33m102[0m:[33m5[0m [opt]
+[33m  [0m 99  	mkDict *load_struct_dict([32mchar[0m **words, [32mint[0m count_el, [32munsigned[0m [32mint[0m *val)
+[33m  [0m 100 	{
+[33m  [0m 101 	    [32mint[0m **numbers = malloc([32msizeof[0m([32mint[0m *) * count_el);
+[33m->[0m 102 	    [32m[4mfor[0m[0m ([32mint[0m i = [31m0[0m; i < count_el; i++)
+[33m  [0m 103 	    {
+[33m  [0m 104 	        numbers[i] = malloc([32msizeof[0m([32mint[0m) * [31m7[0m);
+[33m  [0m 105 	    }
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gp numbers [1G[2m(lldb) [0m[18G
+(int **) 0x0000000129a04080
+(lldb) [1G[2m(lldb) [0m[8Gc
+Process 39904 resuming
+Process 39904 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mbreakpoint 2.1[0m
+    frame #0: [33m0x0000000100003448[0m point_3d`load_struct_dict(words=0x0000000128704200, count_el=<unavailable>, val=0x0000000128704080) at [36mfiodict.c[0m:[33m129[0m:[33m32[0m [opt]
+[33m  [0m 126 	            [32mwhile[0m (*line == [31m' '[0m || *line == [31m'\t'[0m)
+[33m  [0m 127 	                line++;
+[33m  [0m 128 	        }
+[33m->[0m 129 	        *(p + i) = constructor([4mnumbers[0m[i][[31m0[0m], numbers[i][[31m1[0m], numbers[i][[31m2[0m]);
+[33m  [0m 130 	        [32mchar[0m key_buf[[31m300[0m];
+[33m  [0m 131 	        sscanf(*(words + i), "%s", key_buf);
+[33m  [0m 132 	        [32mchar[0m *key = strdup(key_buf);
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 39904 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x000000010000347c[0m point_3d`load_struct_dict(words=0x0000000128704200, count_el=<unavailable>, val=0x0000000128704080) at [36mfiodict.c[0m:[33m131[0m:[33m16[0m [opt]
+[33m  [0m 128 	        }
+[33m  [0m 129 	        *(p + i) = constructor(numbers[i][[31m0[0m], numbers[i][[31m1[0m], numbers[i][[31m2[0m]);
+[33m  [0m 130 	        [32mchar[0m key_buf[[31m300[0m];
+[33m->[0m 131 	        sscanf([4m*[0m(words + i), "%s", key_buf);
+[33m  [0m 132 	        [32mchar[0m *key = strdup(key_buf);
+[33m  [0m 133 	
+[33m  [0m 134 	        (*(p + i))->atom = constructor_atom(val, numbers[i][[31m3[0m], numbers[i][[31m4[0m], numbers[i][[31m5[0m], numbers[i][[31m6[0m]);
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 39904 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100003494[0m point_3d`load_struct_dict(words=0x0000000128704200, count_el=<unavailable>, val=0x0000000128704080) at [36mfiodict.c[0m:[33m132[0m:[33m21[0m [opt]
+[33m  [0m 129 	        *(p + i) = constructor(numbers[i][[31m0[0m], numbers[i][[31m1[0m], numbers[i][[31m2[0m]);
+[33m  [0m 130 	        [32mchar[0m key_buf[[31m300[0m];
+[33m  [0m 131 	        sscanf(*(words + i), "%s", key_buf);
+[33m->[0m 132 	        [32mchar[0m *key = [4mstrdup[0m(key_buf);
+[33m  [0m 133 	
+[33m  [0m 134 	        (*(p + i))->atom = constructor_atom(val, numbers[i][[31m3[0m], numbers[i][[31m4[0m], numbers[i][[31m5[0m], numbers[i][[31m6[0m]);
+[33m  [0m 135 	        dict_put(dict, ([32mvoid[0m *)key, ([32mvoid[0m *)*(p + i));
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 39904 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x00000001000034a0[0m point_3d`load_struct_dict(words=0x0000000128704200, count_el=<unavailable>, val=0x0000000128704080) at [36mfiodict.c[0m:[33m134[0m:[33m50[0m [opt]
+[33m  [0m 131 	        sscanf(*(words + i), "%s", key_buf);
+[33m  [0m 132 	        [32mchar[0m *key = strdup(key_buf);
+[33m  [0m 133 	
+[33m->[0m 134 	        (*(p + i))->atom = constructor_atom(val, [4mnumbers[0m[i][[31m3[0m], numbers[i][[31m4[0m], numbers[i][[31m5[0m], numbers[i][[31m6[0m]);
+[33m  [0m 135 	        dict_put(dict, ([32mvoid[0m *)key, ([32mvoid[0m *)*(p + i));
+[33m  [0m 136 	        [35m// print_point(*(p + i), val);[0m
+[33m  [0m 137 	        [35m//  dict_feach(dict);[0m
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 39904 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x00000001000034b8[0m point_3d`load_struct_dict(words=0x0000000128704200, count_el=<unavailable>, val=0x0000000128704080) at [36mfiodict.c[0m:[33m135[0m:[33m9[0m [opt]
+[33m  [0m 132 	        [32mchar[0m *key = strdup(key_buf);
+[33m  [0m 133 	
+[33m  [0m 134 	        (*(p + i))->atom = constructor_atom(val, numbers[i][[31m3[0m], numbers[i][[31m4[0m], numbers[i][[31m5[0m], numbers[i][[31m6[0m]);
+[33m->[0m 135 	        [4mdict_put[0m(dict, ([32mvoid[0m *)key, ([32mvoid[0m *)*(p + i));
+[33m  [0m 136 	        [35m// print_point(*(p + i), val);[0m
+[33m  [0m 137 	        [35m//  dict_feach(dict);[0m
+[33m  [0m 138 	    }
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 39904 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x00000001000034c4[0m point_3d`load_struct_dict(words=0x0000000128704200, count_el=<unavailable>, val=0x0000000128704080) at [36mfiodict.c[0m:[33m109[0m:[33m36[0m [opt]
+[33m  [0m 106 	    Point3d **p = malloc([32msizeof[0m(Point3d *) * count_el);
+[33m  [0m 107 	    mkDict *dict = dict_create();
+[33m  [0m 108 	
+[33m->[0m 109 	    [32mfor[0m ([32mint[0m i = [31m0[0m; i < count_el; i[4m++[0m)
+[33m  [0m 110 	    {
+[33m  [0m 111 	        [32mint[0m count = [31m0[0m;
+[33m  [0m 112 	        [32mconst[0m [32mchar[0m *line = *(words + i);
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gdisase[K[1G[2m(lldb) [0m[13Gsemble [1G[2m(lldb) [0m[20Gd[K[1G[2m(lldb) [0m[20Gload[K[1G[2m(lldb) [0m[23G[K[1G[2m(lldb) [0m[22G[K[1G[2m(lldb) [0m[21G[K[1G[2m(lldb) [0m[20G--frame
+point_3d`load_struct_dict:
+[33m   [0m 0x1000033a8 <+0>:   sub    [0;36msp[0m, [0;36msp[0m, [0;31m#0x1d0[0m
+[33m   [0m 0x1000033ac <+4>:   stp    [0;36mx28[0m, [0;36mx27[0m, [[0;36msp[0m, [0;31m#0x170[0m]
+[33m   [0m 0x1000033b0 <+8>:   stp    [0;36mx26[0m, [0;36mx25[0m, [[0;36msp[0m, [0;31m#0x180[0m]
+[33m   [0m 0x1000033b4 <+12>:  stp    [0;36mx24[0m, [0;36mx23[0m, [[0;36msp[0m, [0;31m#0x190[0m]
+[33m   [0m 0x1000033b8 <+16>:  stp    [0;36mx22[0m, [0;36mx21[0m, [[0;36msp[0m, [0;31m#0x1a0[0m]
+[33m   [0m 0x1000033bc <+20>:  stp    [0;36mx20[0m, [0;36mx19[0m, [[0;36msp[0m, [0;31m#0x1b0[0m]
+[33m   [0m 0x1000033c0 <+24>:  stp    [0;36mx29[0m, [0;36mx30[0m, [[0;36msp[0m, [0;31m#0x1c0[0m]
+[33m   [0m 0x1000033c4 <+28>:  add    [0;36mx29[0m, [0;36msp[0m, [0;31m#0x1c0[0m
+[33m   [0m 0x1000033c8 <+32>:  str    [0;36mx2[0m, [[0;36msp[0m, [0;31m#0x18[0m]
+[33m   [0m 0x1000033cc <+36>:  mov    [0;36mx19[0m, [0;36mx1[0m
+[33m   [0m 0x1000033d0 <+40>:  mov    [0;36mx22[0m, [0;36mx0[0m
+[33m   [0m 0x1000033d4 <+44>:  adrp   [0;36mx8[0m, 1
+[33m   [0m 0x1000033d8 <+48>:  ldr    [0;36mx8[0m, [[0;36mx8[0m, [0;31m#0x10[0m]
+[33m   [0m 0x1000033dc <+52>:  ldr    [0;36mx8[0m, [[0;36mx8[0m]
+[33m   [0m 0x1000033e0 <+56>:  stur   [0;36mx8[0m, [[0;36mx29[0m, [0;31m#-0x60[0m]
+[33m   [0m 0x1000033e4 <+60>:  sbfiz  [0;36mx0[0m, [0;36mx19[0m, [0;31m#3[0m, [0;31m#32[0m
+[33m   [0m 0x1000033e8 <+64>:  bl     [0;33m0x100003b14[0m    ; symbol stub for: malloc
+[33m   [0m 0x1000033ec <+68>:  str    [0;36mx0[0m, [[0;36msp[0m, [0;31m#0x28[0m]
+[33m   [0m 0x1000033f0 <+72>:  mov    [0;36mw28[0m, [0;36mw19[0m
+[33m   [0m 0x1000033f4 <+76>:  cmp    [0;36mw19[0m, [0;31m#0x1[0m
+[33m   [0m 0x1000033f8 <+80>:  b.lt   [0;33m0x100003418[0m    ; <+112> at fiodict.c:107:20
+[33m   [0m 0x1000033fc <+84>:  mov    [0;36mx20[0m, [0;36mx28[0m
+[33m   [0m 0x100003400 <+88>:  ldr    [0;36mx21[0m, [[0;36msp[0m, [0;31m#0x28[0m]
+[33m   [0m 0x100003404 <+92>:  mov    [0;36mw0[0m, [0;31m#0x1c[0m ; =28 
+[33m   [0m 0x100003408 <+96>:  bl     [0;33m0x100003b14[0m    ; symbol stub for: malloc
+[33m   [0m 0x10000340c <+100>: str    [0;36mx0[0m, [[0;36mx21[0m], [0;31m#0x8[0m
+[33m   [0m 0x100003410 <+104>: subs   [0;36mx20[0m, [0;36mx20[0m, [0;31m#0x1[0m
+[33m   [0m 0x100003414 <+108>: b.ne   [0;33m0x100003404[0m    ; <+92> at fiodict.c:104:22
+[33m   [0m 0x100003418 <+112>: bl     [0;33m0x100001fa4[0m    ; dict_create at dictstruct.c:4
+[33m   [0m 0x10000341c <+116>: str    [0;36mx0[0m, [[0;36msp[0m, [0;31m#0x20[0m]
+[33m   [0m 0x100003420 <+120>: cmp    [0;36mw19[0m, [0;31m#0x1[0m
+[33m   [0m 0x100003424 <+124>: b.lt   [0;33m0x10000356c[0m    ; <+452> at fiodict.c
+[33m   [0m 0x100003428 <+128>: str    [0;36mx19[0m, [[0;36msp[0m, [0;31m#0x10[0m]
+[33m   [0m 0x10000342c <+132>: mov    [0;36mx20[0m, [0;31m#0x0[0m ; =0 
+[33m   [0m 0x100003430 <+136>: mov    [0;36mw24[0m, [0;31m#0x1[0m ; =1 
+[33m   [0m 0x100003434 <+140>: mov    [0;36mx21[0m, [0;31m#0x201[0m ; =513 
+[33m   [0m 0x100003438 <+144>: movk   [0;36mx21[0m, [0;31m#0x1[0m, lsl [0;31m#32[0m
+[33m   [0m 0x10000343c <+148>: adrp   [0;36mx25[0m, 0
+[33m   [0m 0x100003440 <+152>: add    [0;36mx25[0m, [0;36mx25[0m, [0;31m#0xc1e[0m ; "%d"
+[33m   [0m 0x100003444 <+156>: b      [0;33m0x1000034d0[0m    ; <+296> at fiodict.c:112:28
+[33m   [0m 0x100003448 <+160>: lsl    [0;36mx23[0m, [0;36mx20[0m, [0;31m#3[0m
+[33m   [0m 0x10000344c <+164>: ldr    [0;36mx8[0m, [[0;36msp[0m, [0;31m#0x28[0m]
+[33m   [0m 0x100003450 <+168>: ldr    [0;36mx19[0m, [[0;36mx8[0m, [0;36mx23[0m]
+[33m   [0m 0x100003454 <+172>: ldp    [0;36ms0[0m, [0;36ms1[0m, [[0;36mx19[0m]
+[33m   [0m 0x100003458 <+176>: sshll.2d [0;36mv0[0m, [0;36mv0[0m, [0;31m#0x0[0m
+[33m   [0m 0x10000345c <+180>: scvtf  [0;36md0[0m, [0;36md0[0m
+[33m   [0m 0x100003460 <+184>: sshll.2d [0;36mv1[0m, [0;36mv1[0m, [0;31m#0x0[0m
+[33m   [0m 0x100003464 <+188>: scvtf  [0;36md1[0m, [0;36md1[0m
+[33m   [0m 0x100003468 <+192>: ldr    [0;36ms2[0m, [[0;36mx19[0m, [0;31m#0x8[0m]
+[33m   [0m 0x10000346c <+196>: sshll.2d [0;36mv2[0m, [0;36mv2[0m, [0;31m#0x0[0m
+[33m   [0m 0x100003470 <+200>: scvtf  [0;36md2[0m, [0;36md2[0m
+[33m   [0m 0x100003474 <+204>: bl     [0;33m0x100002e70[0m    ; constructor at point3d.c:31
+[33m   [0m 0x100003478 <+208>: mov    [0;36mx26[0m, [0;36mx0[0m
+[33m   [0m 0x10000347c <+212>: ldr    [0;36mx0[0m, [[0;36mx22[0m, [0;36mx23[0m]
+[33m   [0m 0x100003480 <+216>: add    [0;36mx8[0m, [0;36msp[0m, [0;31m#0x34[0m
+[33m   [0m 0x100003484 <+220>: str    [0;36mx8[0m, [[0;36msp[0m]
+[33m   [0m 0x100003488 <+224>: adrp   [0;36mx1[0m, 0
+[33m   [0m 0x10000348c <+228>: add    [0;36mx1[0m, [0;36mx1[0m, [0;31m#0xebd[0m ; "%s"
+[33m   [0m 0x100003490 <+232>: bl     [0;33m0x100003b74[0m    ; symbol stub for: sscanf
+[33m   [0m 0x100003494 <+236>: add    [0;36mx0[0m, [0;36msp[0m, [0;31m#0x34[0m
+[33m   [0m 0x100003498 <+240>: bl     [0;33m0x100003b8c[0m    ; symbol stub for: strdup
+[33m   [0m 0x10000349c <+244>: mov    [0;36mx27[0m, [0;36mx0[0m
+[33m   [0m 0x1000034a0 <+248>: ldp    [0;36mw1[0m, [0;36mw2[0m, [[0;36mx19[0m, [0;31m#0xc[0m]
+[33m   [0m 0x1000034a4 <+252>: ldp    [0;36mw3[0m, [0;36mw4[0m, [[0;36mx19[0m, [0;31m#0x14[0m]
+[33m   [0m 0x1000034a8 <+256>: ldr    [0;36mx0[0m, [[0;36msp[0m, [0;31m#0x18[0m]
+[33m   [0m 0x1000034ac <+260>: bl     [0;33m0x100002934[0m    ; constructor_atom at atomstruct.c:5
+[33m   [0m 0x1000034b0 <+264>: str    [0;36mx0[0m, [[0;36mx26[0m]
+[33m   [0m 0x1000034b4 <+268>: ldr    [0;36mx0[0m, [[0;36msp[0m, [0;31m#0x20[0m]
+[33m   [0m 0x1000034b8 <+272>: mov    [0;36mx1[0m, [0;36mx27[0m
+[33m   [0m 0x1000034bc <+276>: mov    [0;36mx2[0m, [0;36mx26[0m
+[33m   [0m 0x1000034c0 <+280>: bl     [0;33m0x10000203c[0m    ; dict_put at dictstruct.c:35
+[33m-> [0m 0x1000034c4 <+284>: add    [0;36mx20[0m, [0;36mx20[0m, [0;31m#0x1[0m
+[33m   [0m 0x1000034c8 <+288>: cmp    [0;36mx20[0m, [0;36mx28[0m
+[33m   [0m 0x1000034cc <+292>: b.eq   [0;33m0x10000354c[0m    ; <+420> at fiodict.c
+[33m   [0m 0x1000034d0 <+296>: ldr    [0;36mx26[0m, [[0;36mx22[0m, [0;36mx20[0m, lsl [0;31m#3[0m]
+[33m   [0m 0x1000034d4 <+300>: cbz    [0;36mx26[0m, [0;33m0x1000034c4[0m ; <+284> at fiodict.c:109:36
+[33m   [0m 0x1000034d8 <+304>: ldrb   [0;36mw8[0m, [[0;36mx26[0m]
+[33m   [0m 0x1000034dc <+308>: cbz    [0;36mw8[0m, [0;33m0x100003448[0m ; <+160> at fiodict.c:129:32
+[33m   [0m 0x1000034e0 <+312>: mov    [0;36mw27[0m, [0;31m#0x0[0m ; =0 
+[33m   [0m 0x1000034e4 <+316>: ldr    [0;36mx8[0m, [[0;36msp[0m, [0;31m#0x28[0m]
+[33m   [0m 0x1000034e8 <+320>: ldr    [0;36mx23[0m, [[0;36mx8[0m, [0;36mx20[0m, lsl [0;31m#3[0m]
+[33m   [0m 0x1000034ec <+324>: add    [0;36mx8[0m, [0;36mx23[0m, [0;36mw27[0m, uxtw [0;31m#2[0m
+[33m   [0m 0x1000034f0 <+328>: str    [0;36mx8[0m, [[0;36msp[0m]
+[33m   [0m 0x1000034f4 <+332>: mov    [0;36mx0[0m, [0;36mx26[0m
+[33m   [0m 0x1000034f8 <+336>: mov    [0;36mx1[0m, [0;36mx25[0m
+[33m   [0m 0x1000034fc <+340>: bl     [0;33m0x100003b74[0m    ; symbol stub for: sscanf
+[33m   [0m 0x100003500 <+344>: cmp    [0;36mw0[0m, [0;31m#0x1[0m
+[33m   [0m 0x100003504 <+348>: cinc   [0;36mw27[0m, [0;36mw27[0m, eq
+[33m   [0m 0x100003508 <+352>: ldrb   [0;36mw8[0m, [[0;36mx26[0m]
+[33m   [0m 0x10000350c <+356>: cmp    [0;36mw8[0m, [0;31m#0x20[0m
+[33m   [0m 0x100003510 <+360>: lsl    [0;36mx8[0m, [0;36mx24[0m, [0;36mx8[0m
+[33m   [0m 0x100003514 <+364>: and    [0;36mx8[0m, [0;36mx8[0m, [0;36mx21[0m
+[33m   [0m 0x100003518 <+368>: ccmp   [0;36mx8[0m, [0;31m#0x0[0m, [0;31m#0x4[0m, ls
+[33m   [0m 0x10000351c <+372>: b.ne   [0;33m0x10000352c[0m    ; <+388> at fiodict.c:126:20
+[33m   [0m 0x100003520 <+376>: add    [0;36mx26[0m, [0;36mx26[0m, [0;31m#0x1[0m
+[33m   [0m 0x100003524 <+380>: b      [0;33m0x100003508[0m    ; <+352> at fiodict.c:123:20
+[33m   [0m 0x100003528 <+384>: add    [0;36mx26[0m, [0;36mx26[0m, [0;31m#0x1[0m
+[33m   [0m 0x10000352c <+388>: ldrb   [0;36mw8[0m, [[0;36mx26[0m]
+[33m   [0m 0x100003530 <+392>: cmp    [0;36mw8[0m, [0;31m#0x20[0m
+[33m   [0m 0x100003534 <+396>: ccmp   [0;36mw8[0m, [0;31m#0x9[0m, [0;31m#0x4[0m, ne
+[33m   [0m 0x100003538 <+400>: b.eq   [0;33m0x100003528[0m    ; <+384> at fiodict.c:127:21
+[33m   [0m 0x10000353c <+404>: cmp    [0;36mw8[0m, [0;31m#0x0[0m
+[33m   [0m 0x100003540 <+408>: ccmp   [0;36mw27[0m, [0;31m#0x6[0m, [0;31m#0x2[0m, ne
+[33m   [0m 0x100003544 <+412>: b.ls   [0;33m0x1000034ec[0m    ; <+324> at fiodict.c:120:48
+[33m   [0m 0x100003548 <+416>: b      [0;33m0x100003448[0m    ; <+160> at fiodict.c:129:32
+[33m   [0m 0x10000354c <+420>: ldr    [0;36mx8[0m, [[0;36msp[0m, [0;31m#0x10[0m]
+[33m   [0m 0x100003550 <+424>: cmp    [0;36mw8[0m, [0;31m#0x1[0m
+[33m   [0m 0x100003554 <+428>: b.lt   [0;33m0x10000356c[0m    ; <+452> at fiodict.c
+[33m   [0m 0x100003558 <+432>: ldr    [0;36mx20[0m, [[0;36msp[0m, [0;31m#0x28[0m]
+[33m   [0m 0x10000355c <+436>: ldr    [0;36mx0[0m, [[0;36mx20[0m], [0;31m#0x8[0m
+[33m   [0m 0x100003560 <+440>: bl     [0;33m0x100003ad8[0m    ; symbol stub for: free
+[33m   [0m 0x100003564 <+444>: subs   [0;36mx28[0m, [0;36mx28[0m, [0;31m#0x1[0m
+[33m   [0m 0x100003568 <+448>: b.ne   [0;33m0x10000355c[0m    ; <+436> at fiodict.c:143:14
+[33m   [0m 0x10000356c <+452>: ldr    [0;36mx0[0m, [[0;36msp[0m, [0;31m#0x28[0m]
+[33m   [0m 0x100003570 <+456>: bl     [0;33m0x100003ad8[0m    ; symbol stub for: free
+[33m   [0m 0x100003574 <+460>: ldur   [0;36mx8[0m, [[0;36mx29[0m, [0;31m#-0x60[0m]
+[33m   [0m 0x100003578 <+464>: adrp   [0;36mx9[0m, 1
+[33m   [0m 0x10000357c <+468>: ldr    [0;36mx9[0m, [[0;36mx9[0m, [0;31m#0x10[0m]
+[33m   [0m 0x100003580 <+472>: ldr    [0;36mx9[0m, [[0;36mx9[0m]
+[33m   [0m 0x100003584 <+476>: cmp    [0;36mx9[0m, [0;36mx8[0m
+[33m   [0m 0x100003588 <+480>: b.ne   [0;33m0x1000035b0[0m    ; <+520> at fiodict.c
+[33m   [0m 0x10000358c <+484>: ldr    [0;36mx0[0m, [[0;36msp[0m, [0;31m#0x20[0m]
+[33m   [0m 0x100003590 <+488>: ldp    [0;36mx29[0m, [0;36mx30[0m, [[0;36msp[0m, [0;31m#0x1c0[0m]
+[33m   [0m 0x100003594 <+492>: ldp    [0;36mx20[0m, [0;36mx19[0m, [[0;36msp[0m, [0;31m#0x1b0[0m]
+[33m   [0m 0x100003598 <+496>: ldp    [0;36mx22[0m, [0;36mx21[0m, [[0;36msp[0m, [0;31m#0x1a0[0m]
+[33m   [0m 0x10000359c <+500>: ldp    [0;36mx24[0m, [0;36mx23[0m, [[0;36msp[0m, [0;31m#0x190[0m]
+[33m   [0m 0x1000035a0 <+504>: ldp    [0;36mx26[0m, [0;36mx25[0m, [[0;36msp[0m, [0;31m#0x180[0m]
+[33m   [0m 0x1000035a4 <+508>: ldp    [0;36mx28[0m, [0;36mx27[0m, [[0;36msp[0m, [0;31m#0x170[0m]
+[33m   [0m 0x1000035a8 <+512>: add    [0;36msp[0m, [0;36msp[0m, [0;31m#0x1d0[0m
+[33m   [0m 0x1000035ac <+516>: ret    
+[33m   [0m 0x1000035b0 <+520>: bl     [0;33m0x100003a6c[0m    ; symbol stub for: __stack_chk_fail
+(lldb) [1G[2m(lldb) [0m[8Gregister read
+General Purpose Registers:
+        x0 = 0x0000000000000000
+        x1 = 0x0000000000000000
+        x2 = 0x00000001299041a0
+        x3 = 0x0000000000000002
+        x4 = 0x0000000000000001
+        x5 = 0x0000000000000003
+        x6 = 0x0000000000000000
+        x7 = 0x0000000000000000
+        x8 = 0x2adfc1bcdc08007f
+        x9 = 0x2adfc1bcdc08007f
+       x10 = 0x0000000000000000
+       x11 = 0x0000000000000000
+       x12 = 0x0000000000000001
+       x13 = 0x0000000000000000
+       x14 = 0x00000000ffffffff
+       x15 = 0x0000000000000020
+       x16 = 0x000000019f053100  libsystem_pthread.dylib`___chkstk_darwin
+       x17 = 0x0000000000000000
+       x18 = 0x0000000000000000
+       x19 = 0x0000000128605590
+       x20 = 0x0000000000000000
+       x21 = 0x0000000100000201  point_3d`_mh_execute_header + 513
+       x22 = 0x0000000128704200
+       x23 = 0x0000000000000000
+       x24 = 0x0000000000000001
+       x25 = 0x0000000100003c1e  "%d"
+       x26 = 0x0000000129a043a0
+       x27 = 0x0000000129b04080
+       x28 = 0x0000000000000064
+        fp = 0x000000016fdfec70
+        lr = 0x00000001000034c4  point_3d`load_struct_dict + 284 at fiodict.c:109:36
+        sp = 0x000000016fdfeab0
+        pc = 0x00000001000034c4  point_3d`load_struct_dict + 284 at fiodict.c:109:36
+      cpsr = 0x60001000
+
+(lldb) [1G[2m(lldb) [0m[8Gf
+frame #0: [33m0x00000001000034c4[0m point_3d`load_struct_dict(words=0x0000000128704200, count_el=<unavailable>, val=0x0000000128704080) at [36mfiodict.c[0m:[33m109[0m:[33m36[0m [opt]
+[33m  [0m 106 	    Point3d **p = malloc([32msizeof[0m(Point3d *) * count_el);
+[33m  [0m 107 	    mkDict *dict = dict_create();
+[33m  [0m 108 	
+[33m->[0m 109 	    [32mfor[0m ([32mint[0m i = [31m0[0m; i < count_el; i[4m++[0m)
+[33m  [0m 110 	    {
+[33m  [0m 111 	        [32mint[0m count = [31m0[0m;
+[33m  [0m 112 	        [32mconst[0m [32mchar[0m *line = *(words + i);
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 39904 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x00000001000034d0[0m point_3d`load_struct_dict(words=0x0000000128704200, count_el=<unavailable>, val=0x0000000128704080) at [36mfiodict.c[0m:[33m112[0m:[33m28[0m [opt]
+[33m  [0m 109 	    [32mfor[0m ([32mint[0m i = [31m0[0m; i < count_el; i++)
+[33m  [0m 110 	    {
+[33m  [0m 111 	        [32mint[0m count = [31m0[0m;
+[33m->[0m 112 	        [32mconst[0m [32mchar[0m *line = [4m*[0m(words + i);
+[33m  [0m 113 	        [32mif[0m (line == NULL)
+[33m  [0m 114 	        {
+[33m  [0m 115 	            [32mcontinue[0m;
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 39904 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x00000001000034d4[0m point_3d`load_struct_dict(words=0x0000000128704200, count_el=<unavailable>, val=0x0000000128704080) at [36mfiodict.c[0m:[33m113[0m:[33m13[0m [opt]
+[33m  [0m 110 	    {
+[33m  [0m 111 	        [32mint[0m count = [31m0[0m;
+[33m  [0m 112 	        [32mconst[0m [32mchar[0m *line = *(words + i);
+[33m->[0m 113 	        [32mif[0m ([4mline[0m == NULL)
+[33m  [0m 114 	        {
+[33m  [0m 115 	            [32mcontinue[0m;
+[33m  [0m 116 	        }
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 39904 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x00000001000034d8[0m point_3d`load_struct_dict(words=0x0000000128704200, count_el=<unavailable>, val=0x0000000128704080) at [36mfiodict.c[0m:[33m118[0m:[33m16[0m [opt]
+[33m  [0m 115 	            [32mcontinue[0m;
+[33m  [0m 116 	        }
+[33m  [0m 117 	
+[33m->[0m 118 	        [32mwhile[0m ([4m*[0mline != [31m'\0'[0m && count < [31m7[0m)
+[33m  [0m 119 	        {
+[33m  [0m 120 	            [32mif[0m (sscanf(line, "%d", (numbers[i] + count)) == [31m1[0m)
+[33m  [0m 121 	                count++;
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 39904 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x00000001000034ec[0m point_3d`load_struct_dict(words=0x0000000128704200, count_el=<unavailable>, val=0x0000000128704080) at [36mfiodict.c[0m:[33m120[0m:[33m48[0m [opt]
+[33m  [0m 117 	
+[33m  [0m 118 	        [32mwhile[0m (*line != [31m'\0'[0m && count < [31m7[0m)
+[33m  [0m 119 	        {
+[33m->[0m 120 	            [32mif[0m (sscanf(line, "%d", (numbers[i] [4m+[0m count)) == [31m1[0m)
+[33m  [0m 121 	                count++;
+[33m  [0m 122 	
+[33m  [0m 123 	            [32mwhile[0m (*line != [31m' '[0m && *line != [31m'\t'[0m && *line != [31m'\0'[0m)
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 39904 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100003508[0m point_3d`load_struct_dict(words=0x0000000128704200, count_el=<unavailable>, val=0x0000000128704080) at [36mfiodict.c[0m:[33m123[0m:[33m20[0m [opt]
+[33m  [0m 120 	            [32mif[0m (sscanf(line, "%d", (numbers[i] + count)) == [31m1[0m)
+[33m  [0m 121 	                count++;
+[33m  [0m 122 	
+[33m->[0m 123 	            [32mwhile[0m ([4m*[0mline != [31m' '[0m && *line != [31m'\t'[0m && *line != [31m'\0'[0m)
+[33m  [0m 124 	                line++;
+[33m  [0m 125 	
+[33m  [0m 126 	            [32mwhile[0m (*line == [31m' '[0m || *line == [31m'\t'[0m)
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gp cou[K(lldb) p count[1G[2m(lldb) [0m[15G
+[0;1;31merror: [0mCouldn't materialize: couldn't get the value of variable count: variable not available
+error: errored out in DoExecute, couldn't PrepareToExecuteJITExpression
+(lldb) [1G[2m(lldb) [0m[8Gf
+frame #0: [33m0x0000000100003508[0m point_3d`load_struct_dict(words=0x0000000128704200, count_el=<unavailable>, val=0x0000000128704080) at [36mfiodict.c[0m:[33m123[0m:[33m20[0m [opt]
+[33m  [0m 120 	            [32mif[0m (sscanf(line, "%d", (numbers[i] + count)) == [31m1[0m)
+[33m  [0m 121 	                count++;
+[33m  [0m 122 	
+[33m->[0m 123 	            [32mwhile[0m ([4m*[0mline != [31m' '[0m && *line != [31m'\t'[0m && *line != [31m'\0'[0m)
+[33m  [0m 124 	                line++;
+[33m  [0m 125 	
+[33m  [0m 126 	            [32mwhile[0m (*line == [31m' '[0m || *line == [31m'\t'[0m)
+(lldb) [1G[2m(lldb) [0m[8Gread regis[K[1G[2m(lldb) [0m[17G[K[1G[2m(lldb) [0m[16G[K[1G[2m(lldb) [0m[15G[K[1G[2m(lldb) [0m[14G[K[1G[2m(lldb) [0m[13G[1G[2m(lldb) [0m[12G[K[1G[2m(lldb) [0m[11G[K[1G[2m(lldb) [0m[10G[K[1G[2m(lldb) [0m[9G[K[1G[2m(lldb) [0m[8Gref[K[1G[2m(lldb) [0m[10Ggister read
+General Purpose Registers:
+        x0 = 0x0000000000000000
+        x1 = 0x00000002089cf038  __global_locale
+        x2 = 0x0000000100003c1e  "%d"
+        x3 = 0x000000016fdfeab0
+        x4 = 0x0000000000000001
+        x5 = 0x0000000000000003
+        x6 = 0x0000000000000000
+        x7 = 0x0000000000000000
+        x8 = 0x2adfc1bcdc08007f
+        x9 = 0x2adfc1bcdc08007f
+       x10 = 0x000000020657bfd8  libsystem_c.dylib`_DefaultRuneLocale
+       x11 = 0x00000002089cf038  __global_locale
+       x12 = 0x0000000000000001
+       x13 = 0x0000000000000000
+       x14 = 0x00000000ffffffff
+       x15 = 0x0000000000000020
+       x16 = 0x0000000000000040
+       x17 = 0x000000019eef5e84  libsystem_c.dylib`__svfscanf_l + 1788
+       x18 = 0x0000000000000000
+       x19 = 0x0000000128605590
+       x20 = 0x0000000000000001
+       x21 = 0x0000000100000201  point_3d`_mh_execute_header + 513
+       x22 = 0x0000000128704200
+       x23 = 0x00000001286055b0
+       x24 = 0x0000000000000001
+       x25 = 0x0000000100003c1e  "%d"
+       x26 = 0x00000001287046c0
+       x27 = 0x0000000000000000
+       x28 = 0x0000000000000064
+        fp = 0x000000016fdfec70
+        lr = 0x0000000100003500  point_3d`load_struct_dict + 344 at fiodict.c:120:58
+        sp = 0x000000016fdfeab0
+        pc = 0x0000000100003508  point_3d`load_struct_dict + 352 at fiodict.c:123:20
+      cpsr = 0x80001000
+
+(lldb) [1G[2m(lldb) [0m[8Gq[K[1G[2m(lldb) [0m[8Gmemore[K[1G[2m(lldb) [0m[13Gy read counr[K[1G[2m(lldb) [0m[24Gt
+[0;1;31merror: [0minvalid start address expression.
+[0;1;31merror: [0maddress expression "count" evaluation failed
+(lldb) [1G[2m(lldb) [0m[8Gdisassemble [1G[2m(lldb) [0m[20G
+point_3d`load_struct_dict:
+[33m   [0m 0x1000033a8 <+0>:   sub    [0;36msp[0m, [0;36msp[0m, [0;31m#0x1d0[0m
+[33m   [0m 0x1000033ac <+4>:   stp    [0;36mx28[0m, [0;36mx27[0m, [[0;36msp[0m, [0;31m#0x170[0m]
+[33m   [0m 0x1000033b0 <+8>:   stp    [0;36mx26[0m, [0;36mx25[0m, [[0;36msp[0m, [0;31m#0x180[0m]
+[33m   [0m 0x1000033b4 <+12>:  stp    [0;36mx24[0m, [0;36mx23[0m, [[0;36msp[0m, [0;31m#0x190[0m]
+[33m   [0m 0x1000033b8 <+16>:  stp    [0;36mx22[0m, [0;36mx21[0m, [[0;36msp[0m, [0;31m#0x1a0[0m]
+[33m   [0m 0x1000033bc <+20>:  stp    [0;36mx20[0m, [0;36mx19[0m, [[0;36msp[0m, [0;31m#0x1b0[0m]
+[33m   [0m 0x1000033c0 <+24>:  stp    [0;36mx29[0m, [0;36mx30[0m, [[0;36msp[0m, [0;31m#0x1c0[0m]
+[33m   [0m 0x1000033c4 <+28>:  add    [0;36mx29[0m, [0;36msp[0m, [0;31m#0x1c0[0m
+[33m   [0m 0x1000033c8 <+32>:  str    [0;36mx2[0m, [[0;36msp[0m, [0;31m#0x18[0m]
+[33m   [0m 0x1000033cc <+36>:  mov    [0;36mx19[0m, [0;36mx1[0m
+[33m   [0m 0x1000033d0 <+40>:  mov    [0;36mx22[0m, [0;36mx0[0m
+[33m   [0m 0x1000033d4 <+44>:  adrp   [0;36mx8[0m, 1
+[33m   [0m 0x1000033d8 <+48>:  ldr    [0;36mx8[0m, [[0;36mx8[0m, [0;31m#0x10[0m]
+[33m   [0m 0x1000033dc <+52>:  ldr    [0;36mx8[0m, [[0;36mx8[0m]
+[33m   [0m 0x1000033e0 <+56>:  stur   [0;36mx8[0m, [[0;36mx29[0m, [0;31m#-0x60[0m]
+[33m   [0m 0x1000033e4 <+60>:  sbfiz  [0;36mx0[0m, [0;36mx19[0m, [0;31m#3[0m, [0;31m#32[0m
+[33m   [0m 0x1000033e8 <+64>:  bl     [0;33m0x100003b14[0m    ; symbol stub for: malloc
+[33m   [0m 0x1000033ec <+68>:  str    [0;36mx0[0m, [[0;36msp[0m, [0;31m#0x28[0m]
+[33m   [0m 0x1000033f0 <+72>:  mov    [0;36mw28[0m, [0;36mw19[0m
+[33m   [0m 0x1000033f4 <+76>:  cmp    [0;36mw19[0m, [0;31m#0x1[0m
+[33m   [0m 0x1000033f8 <+80>:  b.lt   [0;33m0x100003418[0m    ; <+112> at fiodict.c:107:20
+[33m   [0m 0x1000033fc <+84>:  mov    [0;36mx20[0m, [0;36mx28[0m
+[33m   [0m 0x100003400 <+88>:  ldr    [0;36mx21[0m, [[0;36msp[0m, [0;31m#0x28[0m]
+[33m   [0m 0x100003404 <+92>:  mov    [0;36mw0[0m, [0;31m#0x1c[0m ; =28 
+[33m   [0m 0x100003408 <+96>:  bl     [0;33m0x100003b14[0m    ; symbol stub for: malloc
+[33m   [0m 0x10000340c <+100>: str    [0;36mx0[0m, [[0;36mx21[0m], [0;31m#0x8[0m
+[33m   [0m 0x100003410 <+104>: subs   [0;36mx20[0m, [0;36mx20[0m, [0;31m#0x1[0m
+[33m   [0m 0x100003414 <+108>: b.ne   [0;33m0x100003404[0m    ; <+92> at fiodict.c:104:22
+[33m   [0m 0x100003418 <+112>: bl     [0;33m0x100001fa4[0m    ; dict_create at dictstruct.c:4
+[33m   [0m 0x10000341c <+116>: str    [0;36mx0[0m, [[0;36msp[0m, [0;31m#0x20[0m]
+[33m   [0m 0x100003420 <+120>: cmp    [0;36mw19[0m, [0;31m#0x1[0m
+[33m   [0m 0x100003424 <+124>: b.lt   [0;33m0x10000356c[0m    ; <+452> at fiodict.c
+[33m   [0m 0x100003428 <+128>: str    [0;36mx19[0m, [[0;36msp[0m, [0;31m#0x10[0m]
+[33m   [0m 0x10000342c <+132>: mov    [0;36mx20[0m, [0;31m#0x0[0m ; =0 
+[33m   [0m 0x100003430 <+136>: mov    [0;36mw24[0m, [0;31m#0x1[0m ; =1 
+[33m   [0m 0x100003434 <+140>: mov    [0;36mx21[0m, [0;31m#0x201[0m ; =513 
+[33m   [0m 0x100003438 <+144>: movk   [0;36mx21[0m, [0;31m#0x1[0m, lsl [0;31m#32[0m
+[33m   [0m 0x10000343c <+148>: adrp   [0;36mx25[0m, 0
+[33m   [0m 0x100003440 <+152>: add    [0;36mx25[0m, [0;36mx25[0m, [0;31m#0xc1e[0m ; "%d"
+[33m   [0m 0x100003444 <+156>: b      [0;33m0x1000034d0[0m    ; <+296> at fiodict.c:112:28
+[33m   [0m 0x100003448 <+160>: lsl    [0;36mx23[0m, [0;36mx20[0m, [0;31m#3[0m
+[33m   [0m 0x10000344c <+164>: ldr    [0;36mx8[0m, [[0;36msp[0m, [0;31m#0x28[0m]
+[33m   [0m 0x100003450 <+168>: ldr    [0;36mx19[0m, [[0;36mx8[0m, [0;36mx23[0m]
+[33m   [0m 0x100003454 <+172>: ldp    [0;36ms0[0m, [0;36ms1[0m, [[0;36mx19[0m]
+[33m   [0m 0x100003458 <+176>: sshll.2d [0;36mv0[0m, [0;36mv0[0m, [0;31m#0x0[0m
+[33m   [0m 0x10000345c <+180>: scvtf  [0;36md0[0m, [0;36md0[0m
+[33m   [0m 0x100003460 <+184>: sshll.2d [0;36mv1[0m, [0;36mv1[0m, [0;31m#0x0[0m
+[33m   [0m 0x100003464 <+188>: scvtf  [0;36md1[0m, [0;36md1[0m
+[33m   [0m 0x100003468 <+192>: ldr    [0;36ms2[0m, [[0;36mx19[0m, [0;31m#0x8[0m]
+[33m   [0m 0x10000346c <+196>: sshll.2d [0;36mv2[0m, [0;36mv2[0m, [0;31m#0x0[0m
+[33m   [0m 0x100003470 <+200>: scvtf  [0;36md2[0m, [0;36md2[0m
+[33m   [0m 0x100003474 <+204>: bl     [0;33m0x100002e70[0m    ; constructor at point3d.c:31
+[33m   [0m 0x100003478 <+208>: mov    [0;36mx26[0m, [0;36mx0[0m
+[33m   [0m 0x10000347c <+212>: ldr    [0;36mx0[0m, [[0;36mx22[0m, [0;36mx23[0m]
+[33m   [0m 0x100003480 <+216>: add    [0;36mx8[0m, [0;36msp[0m, [0;31m#0x34[0m
+[33m   [0m 0x100003484 <+220>: str    [0;36mx8[0m, [[0;36msp[0m]
+[33m   [0m 0x100003488 <+224>: adrp   [0;36mx1[0m, 0
+[33m   [0m 0x10000348c <+228>: add    [0;36mx1[0m, [0;36mx1[0m, [0;31m#0xebd[0m ; "%s"
+[33m   [0m 0x100003490 <+232>: bl     [0;33m0x100003b74[0m    ; symbol stub for: sscanf
+[33m   [0m 0x100003494 <+236>: add    [0;36mx0[0m, [0;36msp[0m, [0;31m#0x34[0m
+[33m   [0m 0x100003498 <+240>: bl     [0;33m0x100003b8c[0m    ; symbol stub for: strdup
+[33m   [0m 0x10000349c <+244>: mov    [0;36mx27[0m, [0;36mx0[0m
+[33m   [0m 0x1000034a0 <+248>: ldp    [0;36mw1[0m, [0;36mw2[0m, [[0;36mx19[0m, [0;31m#0xc[0m]
+[33m   [0m 0x1000034a4 <+252>: ldp    [0;36mw3[0m, [0;36mw4[0m, [[0;36mx19[0m, [0;31m#0x14[0m]
+[33m   [0m 0x1000034a8 <+256>: ldr    [0;36mx0[0m, [[0;36msp[0m, [0;31m#0x18[0m]
+[33m   [0m 0x1000034ac <+260>: bl     [0;33m0x100002934[0m    ; constructor_atom at atomstruct.c:5
+[33m   [0m 0x1000034b0 <+264>: str    [0;36mx0[0m, [[0;36mx26[0m]
+[33m   [0m 0x1000034b4 <+268>: ldr    [0;36mx0[0m, [[0;36msp[0m, [0;31m#0x20[0m]
+[33m   [0m 0x1000034b8 <+272>: mov    [0;36mx1[0m, [0;36mx27[0m
+[33m   [0m 0x1000034bc <+276>: mov    [0;36mx2[0m, [0;36mx26[0m
+[33m   [0m 0x1000034c0 <+280>: bl     [0;33m0x10000203c[0m    ; dict_put at dictstruct.c:35
+[33m   [0m 0x1000034c4 <+284>: add    [0;36mx20[0m, [0;36mx20[0m, [0;31m#0x1[0m
+[33m   [0m 0x1000034c8 <+288>: cmp    [0;36mx20[0m, [0;36mx28[0m
+[33m   [0m 0x1000034cc <+292>: b.eq   [0;33m0x10000354c[0m    ; <+420> at fiodict.c
+[33m   [0m 0x1000034d0 <+296>: ldr    [0;36mx26[0m, [[0;36mx22[0m, [0;36mx20[0m, lsl [0;31m#3[0m]
+[33m   [0m 0x1000034d4 <+300>: cbz    [0;36mx26[0m, [0;33m0x1000034c4[0m ; <+284> at fiodict.c:109:36
+[33m   [0m 0x1000034d8 <+304>: ldrb   [0;36mw8[0m, [[0;36mx26[0m]
+[33m   [0m 0x1000034dc <+308>: cbz    [0;36mw8[0m, [0;33m0x100003448[0m ; <+160> at fiodict.c:129:32
+[33m   [0m 0x1000034e0 <+312>: mov    [0;36mw27[0m, [0;31m#0x0[0m ; =0 
+[33m   [0m 0x1000034e4 <+316>: ldr    [0;36mx8[0m, [[0;36msp[0m, [0;31m#0x28[0m]
+[33m   [0m 0x1000034e8 <+320>: ldr    [0;36mx23[0m, [[0;36mx8[0m, [0;36mx20[0m, lsl [0;31m#3[0m]
+[33m   [0m 0x1000034ec <+324>: add    [0;36mx8[0m, [0;36mx23[0m, [0;36mw27[0m, uxtw [0;31m#2[0m
+[33m   [0m 0x1000034f0 <+328>: str    [0;36mx8[0m, [[0;36msp[0m]
+[33m   [0m 0x1000034f4 <+332>: mov    [0;36mx0[0m, [0;36mx26[0m
+[33m   [0m 0x1000034f8 <+336>: mov    [0;36mx1[0m, [0;36mx25[0m
+[33m   [0m 0x1000034fc <+340>: bl     [0;33m0x100003b74[0m    ; symbol stub for: sscanf
+[33m   [0m 0x100003500 <+344>: cmp    [0;36mw0[0m, [0;31m#0x1[0m
+[33m   [0m 0x100003504 <+348>: cinc   [0;36mw27[0m, [0;36mw27[0m, eq
+[33m-> [0m 0x100003508 <+352>: ldrb   [0;36mw8[0m, [[0;36mx26[0m]
+[33m   [0m 0x10000350c <+356>: cmp    [0;36mw8[0m, [0;31m#0x20[0m
+[33m   [0m 0x100003510 <+360>: lsl    [0;36mx8[0m, [0;36mx24[0m, [0;36mx8[0m
+[33m   [0m 0x100003514 <+364>: and    [0;36mx8[0m, [0;36mx8[0m, [0;36mx21[0m
+[33m   [0m 0x100003518 <+368>: ccmp   [0;36mx8[0m, [0;31m#0x0[0m, [0;31m#0x4[0m, ls
+[33m   [0m 0x10000351c <+372>: b.ne   [0;33m0x10000352c[0m    ; <+388> at fiodict.c:126:20
+[33m   [0m 0x100003520 <+376>: add    [0;36mx26[0m, [0;36mx26[0m, [0;31m#0x1[0m
+[33m   [0m 0x100003524 <+380>: b      [0;33m0x100003508[0m    ; <+352> at fiodict.c:123:20
+[33m   [0m 0x100003528 <+384>: add    [0;36mx26[0m, [0;36mx26[0m, [0;31m#0x1[0m
+[33m   [0m 0x10000352c <+388>: ldrb   [0;36mw8[0m, [[0;36mx26[0m]
+[33m   [0m 0x100003530 <+392>: cmp    [0;36mw8[0m, [0;31m#0x20[0m
+[33m   [0m 0x100003534 <+396>: ccmp   [0;36mw8[0m, [0;31m#0x9[0m, [0;31m#0x4[0m, ne
+[33m   [0m 0x100003538 <+400>: b.eq   [0;33m0x100003528[0m    ; <+384> at fiodict.c:127:21
+[33m   [0m 0x10000353c <+404>: cmp    [0;36mw8[0m, [0;31m#0x0[0m
+[33m   [0m 0x100003540 <+408>: ccmp   [0;36mw27[0m, [0;31m#0x6[0m, [0;31m#0x2[0m, ne
+[33m   [0m 0x100003544 <+412>: b.ls   [0;33m0x1000034ec[0m    ; <+324> at fiodict.c:120:48
+[33m   [0m 0x100003548 <+416>: b      [0;33m0x100003448[0m    ; <+160> at fiodict.c:129:32
+[33m   [0m 0x10000354c <+420>: ldr    [0;36mx8[0m, [[0;36msp[0m, [0;31m#0x10[0m]
+[33m   [0m 0x100003550 <+424>: cmp    [0;36mw8[0m, [0;31m#0x1[0m
+[33m   [0m 0x100003554 <+428>: b.lt   [0;33m0x10000356c[0m    ; <+452> at fiodict.c
+[33m   [0m 0x100003558 <+432>: ldr    [0;36mx20[0m, [[0;36msp[0m, [0;31m#0x28[0m]
+[33m   [0m 0x10000355c <+436>: ldr    [0;36mx0[0m, [[0;36mx20[0m], [0;31m#0x8[0m
+[33m   [0m 0x100003560 <+440>: bl     [0;33m0x100003ad8[0m    ; symbol stub for: free
+[33m   [0m 0x100003564 <+444>: subs   [0;36mx28[0m, [0;36mx28[0m, [0;31m#0x1[0m
+[33m   [0m 0x100003568 <+448>: b.ne   [0;33m0x10000355c[0m    ; <+436> at fiodict.c:143:14
+[33m   [0m 0x10000356c <+452>: ldr    [0;36mx0[0m, [[0;36msp[0m, [0;31m#0x28[0m]
+[33m   [0m 0x100003570 <+456>: bl     [0;33m0x100003ad8[0m    ; symbol stub for: free
+[33m   [0m 0x100003574 <+460>: ldur   [0;36mx8[0m, [[0;36mx29[0m, [0;31m#-0x60[0m]
+[33m   [0m 0x100003578 <+464>: adrp   [0;36mx9[0m, 1
+[33m   [0m 0x10000357c <+468>: ldr    [0;36mx9[0m, [[0;36mx9[0m, [0;31m#0x10[0m]
+[33m   [0m 0x100003580 <+472>: ldr    [0;36mx9[0m, [[0;36mx9[0m]
+[33m   [0m 0x100003584 <+476>: cmp    [0;36mx9[0m, [0;36mx8[0m
+[33m   [0m 0x100003588 <+480>: b.ne   [0;33m0x1000035b0[0m    ; <+520> at fiodict.c
+[33m   [0m 0x10000358c <+484>: ldr    [0;36mx0[0m, [[0;36msp[0m, [0;31m#0x20[0m]
+[33m   [0m 0x100003590 <+488>: ldp    [0;36mx29[0m, [0;36mx30[0m, [[0;36msp[0m, [0;31m#0x1c0[0m]
+[33m   [0m 0x100003594 <+492>: ldp    [0;36mx20[0m, [0;36mx19[0m, [[0;36msp[0m, [0;31m#0x1b0[0m]
+[33m   [0m 0x100003598 <+496>: ldp    [0;36mx22[0m, [0;36mx21[0m, [[0;36msp[0m, [0;31m#0x1a0[0m]
+[33m   [0m 0x10000359c <+500>: ldp    [0;36mx24[0m, [0;36mx23[0m, [[0;36msp[0m, [0;31m#0x190[0m]
+[33m   [0m 0x1000035a0 <+504>: ldp    [0;36mx26[0m, [0;36mx25[0m, [[0;36msp[0m, [0;31m#0x180[0m]
+[33m   [0m 0x1000035a4 <+508>: ldp    [0;36mx28[0m, [0;36mx27[0m, [[0;36msp[0m, [0;31m#0x170[0m]
+[33m   [0m 0x1000035a8 <+512>: add    [0;36msp[0m, [0;36msp[0m, [0;31m#0x1d0[0m
+[33m   [0m 0x1000035ac <+516>: ret    
+[33m   [0m 0x1000035b0 <+520>: bl     [0;33m0x100003a6c[0m    ; symbol stub for: __stack_chk_fail
+(lldb) [1G[2m(lldb) [0m[8Gd[K[1G[2m(lldb) [0m[8Gf
+frame #0: [33m0x0000000100003508[0m point_3d`load_struct_dict(words=0x0000000128704200, count_el=<unavailable>, val=0x0000000128704080) at [36mfiodict.c[0m:[33m123[0m:[33m20[0m [opt]
+[33m  [0m 120 	            [32mif[0m (sscanf(line, "%d", (numbers[i] + count)) == [31m1[0m)
+[33m  [0m 121 	                count++;
+[33m  [0m 122 	
+[33m->[0m 123 	            [32mwhile[0m ([4m*[0mline != [31m' '[0m && *line != [31m'\t'[0m && *line != [31m'\0'[0m)
+[33m  [0m 124 	                line++;
+[33m  [0m 125 	
+[33m  [0m 126 	            [32mwhile[0m (*line == [31m' '[0m || *line == [31m'\t'[0m)
+(lldb) [1G[2m(lldb) [0m[8Gret[K[1G[2m(lldb) [0m[10Ggister read v[K[1G[2m(lldb) [0m[22Gw27
+     w27 = 0x00000000
+(lldb) [1G[2m(lldb) [0m[8Gregister read w27[1G[2m(lldb) [0m[25G27[K[1G[2m(lldb) [0m[22Gx27[1G[2m(lldb) [0m[23G
+     x27 = 0x0000000000000000
+(lldb) [1G[2m(lldb) [0m[8Gf[K[1G[2m(lldb) [0m[8Gp line
+(const char *) 0x00000001287046c0 "key00000000000000000000000000098\t:\t982\t758\t127\t\t10 12 3 1\n"
+(lldb) [1G[2m(lldb) [0m[8Gc[K[1G[2m(lldb) [0m[8Gn
+Process 39904 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100003520[0m point_3d`load_struct_dict(words=0x0000000128704200, count_el=<unavailable>, val=0x0000000128704080) at [36mfiodict.c[0m:[33m124[0m:[33m21[0m [opt]
+[33m  [0m 121 	                count++;
+[33m  [0m 122 	
+[33m  [0m 123 	            [32mwhile[0m (*line != [31m' '[0m && *line != [31m'\t'[0m && *line != [31m'\0'[0m)
+[33m->[0m 124 	                line[4m++[0m;
+[33m  [0m 125 	
+[33m  [0m 126 	            [32mwhile[0m (*line == [31m' '[0m || *line == [31m'\t'[0m)
+[33m  [0m 127 	                line++;
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 39904 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100003508[0m point_3d`load_struct_dict(words=0x0000000128704200, count_el=<unavailable>, val=0x0000000128704080) at [36mfiodict.c[0m:[33m123[0m:[33m20[0m [opt]
+[33m  [0m 120 	            [32mif[0m (sscanf(line, "%d", (numbers[i] + count)) == [31m1[0m)
+[33m  [0m 121 	                count++;
+[33m  [0m 122 	
+[33m->[0m 123 	            [32mwhile[0m ([4m*[0mline != [31m' '[0m && *line != [31m'\t'[0m && *line != [31m'\0'[0m)
+[33m  [0m 124 	                line++;
+[33m  [0m 125 	
+[33m  [0m 126 	            [32mwhile[0m (*line == [31m' '[0m || *line == [31m'\t'[0m)
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gp line
+(const char *) 0x00000001287046c1 "ey00000000000000000000000000098\t:\t982\t758\t127\t\t10 12 3 1\n"
+(lldb) [1G[2m(lldb) [0m[8Gc
+Process 39904 resuming
+Process 39904 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mbreakpoint 2.1[0m
+    frame #0: [33m0x0000000100003448[0m point_3d`load_struct_dict(words=0x0000000128704200, count_el=<unavailable>, val=0x0000000128704080) at [36mfiodict.c[0m:[33m129[0m:[33m32[0m [opt]
+[33m  [0m 126 	            [32mwhile[0m (*line == [31m' '[0m || *line == [31m'\t'[0m)
+[33m  [0m 127 	                line++;
+[33m  [0m 128 	        }
+[33m->[0m 129 	        *(p + i) = constructor([4mnumbers[0m[i][[31m0[0m], numbers[i][[31m1[0m], numbers[i][[31m2[0m]);
+[33m  [0m 130 	        [32mchar[0m key_buf[[31m300[0m];
+[33m  [0m 131 	        sscanf(*(words + i), "%s", key_buf);
+[33m  [0m 132 	        [32mchar[0m *key = strdup(key_buf);
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gp oc[K[1G[2m(lldb) [0m[11G[K[1G[2m(lldb) [0m[10Gcount
+[0;1;31merror: [0mCouldn't materialize: couldn't get the value of variable count: variable not available
+error: errored out in DoExecute, couldn't PrepareToExecuteJITExpression
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 39904 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x000000010000347c[0m point_3d`load_struct_dict(words=0x0000000128704200, count_el=<unavailable>, val=0x0000000128704080) at [36mfiodict.c[0m:[33m131[0m:[33m16[0m [opt]
+[33m  [0m 128 	        }
+[33m  [0m 129 	        *(p + i) = constructor(numbers[i][[31m0[0m], numbers[i][[31m1[0m], numbers[i][[31m2[0m]);
+[33m  [0m 130 	        [32mchar[0m key_buf[[31m300[0m];
+[33m->[0m 131 	        sscanf([4m*[0m(words + i), "%s", key_buf);
+[33m  [0m 132 	        [32mchar[0m *key = strdup(key_buf);
+[33m  [0m 133 	
+[33m  [0m 134 	        (*(p + i))->atom = constructor_atom(val, numbers[i][[31m3[0m], numbers[i][[31m4[0m], numbers[i][[31m5[0m], numbers[i][[31m6[0m]);
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 39904 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x0000000100003494[0m point_3d`load_struct_dict(words=0x0000000128704200, count_el=<unavailable>, val=0x0000000128704080) at [36mfiodict.c[0m:[33m132[0m:[33m21[0m [opt]
+[33m  [0m 129 	        *(p + i) = constructor(numbers[i][[31m0[0m], numbers[i][[31m1[0m], numbers[i][[31m2[0m]);
+[33m  [0m 130 	        [32mchar[0m key_buf[[31m300[0m];
+[33m  [0m 131 	        sscanf(*(words + i), "%s", key_buf);
+[33m->[0m 132 	        [32mchar[0m *key = [4mstrdup[0m(key_buf);
+[33m  [0m 133 	
+[33m  [0m 134 	        (*(p + i))->atom = constructor_atom(val, numbers[i][[31m3[0m], numbers[i][[31m4[0m], numbers[i][[31m5[0m], numbers[i][[31m6[0m]);
+[33m  [0m 135 	        dict_put(dict, ([32mvoid[0m *)key, ([32mvoid[0m *)*(p + i));
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 39904 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x00000001000034a0[0m point_3d`load_struct_dict(words=0x0000000128704200, count_el=<unavailable>, val=0x0000000128704080) at [36mfiodict.c[0m:[33m134[0m:[33m50[0m [opt]
+[33m  [0m 131 	        sscanf(*(words + i), "%s", key_buf);
+[33m  [0m 132 	        [32mchar[0m *key = strdup(key_buf);
+[33m  [0m 133 	
+[33m->[0m 134 	        (*(p + i))->atom = constructor_atom(val, [4mnumbers[0m[i][[31m3[0m], numbers[i][[31m4[0m], numbers[i][[31m5[0m], numbers[i][[31m6[0m]);
+[33m  [0m 135 	        dict_put(dict, ([32mvoid[0m *)key, ([32mvoid[0m *)*(p + i));
+[33m  [0m 136 	        [35m// print_point(*(p + i), val);[0m
+[33m  [0m 137 	        [35m//  dict_feach(dict);[0m
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 39904 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x00000001000034b8[0m point_3d`load_struct_dict(words=0x0000000128704200, count_el=<unavailable>, val=0x0000000128704080) at [36mfiodict.c[0m:[33m135[0m:[33m9[0m [opt]
+[33m  [0m 132 	        [32mchar[0m *key = strdup(key_buf);
+[33m  [0m 133 	
+[33m  [0m 134 	        (*(p + i))->atom = constructor_atom(val, numbers[i][[31m3[0m], numbers[i][[31m4[0m], numbers[i][[31m5[0m], numbers[i][[31m6[0m]);
+[33m->[0m 135 	        [4mdict_put[0m(dict, ([32mvoid[0m *)key, ([32mvoid[0m *)*(p + i));
+[33m  [0m 136 	        [35m// print_point(*(p + i), val);[0m
+[33m  [0m 137 	        [35m//  dict_feach(dict);[0m
+[33m  [0m 138 	    }
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn[K[1G[2m(lldb) [0m[8Gp p[K[1G[2m(lldb) [0m[10G*p
+[0;1;31merror: [0mCouldn't materialize: couldn't get the value of variable p: no location, value may have been optimized out
+error: errored out in DoExecute, couldn't PrepareToExecuteJITExpression
+(lldb) [1G[2m(lldb) [0m[8Gdisa[K[1G[2m(lldb) [0m[11Gassemble [1G[2m(lldb) [0m[20G
+point_3d`load_struct_dict:
+[33m   [0m 0x1000033a8 <+0>:   sub    [0;36msp[0m, [0;36msp[0m, [0;31m#0x1d0[0m
+[33m   [0m 0x1000033ac <+4>:   stp    [0;36mx28[0m, [0;36mx27[0m, [[0;36msp[0m, [0;31m#0x170[0m]
+[33m   [0m 0x1000033b0 <+8>:   stp    [0;36mx26[0m, [0;36mx25[0m, [[0;36msp[0m, [0;31m#0x180[0m]
+[33m   [0m 0x1000033b4 <+12>:  stp    [0;36mx24[0m, [0;36mx23[0m, [[0;36msp[0m, [0;31m#0x190[0m]
+[33m   [0m 0x1000033b8 <+16>:  stp    [0;36mx22[0m, [0;36mx21[0m, [[0;36msp[0m, [0;31m#0x1a0[0m]
+[33m   [0m 0x1000033bc <+20>:  stp    [0;36mx20[0m, [0;36mx19[0m, [[0;36msp[0m, [0;31m#0x1b0[0m]
+[33m   [0m 0x1000033c0 <+24>:  stp    [0;36mx29[0m, [0;36mx30[0m, [[0;36msp[0m, [0;31m#0x1c0[0m]
+[33m   [0m 0x1000033c4 <+28>:  add    [0;36mx29[0m, [0;36msp[0m, [0;31m#0x1c0[0m
+[33m   [0m 0x1000033c8 <+32>:  str    [0;36mx2[0m, [[0;36msp[0m, [0;31m#0x18[0m]
+[33m   [0m 0x1000033cc <+36>:  mov    [0;36mx19[0m, [0;36mx1[0m
+[33m   [0m 0x1000033d0 <+40>:  mov    [0;36mx22[0m, [0;36mx0[0m
+[33m   [0m 0x1000033d4 <+44>:  adrp   [0;36mx8[0m, 1
+[33m   [0m 0x1000033d8 <+48>:  ldr    [0;36mx8[0m, [[0;36mx8[0m, [0;31m#0x10[0m]
+[33m   [0m 0x1000033dc <+52>:  ldr    [0;36mx8[0m, [[0;36mx8[0m]
+[33m   [0m 0x1000033e0 <+56>:  stur   [0;36mx8[0m, [[0;36mx29[0m, [0;31m#-0x60[0m]
+[33m   [0m 0x1000033e4 <+60>:  sbfiz  [0;36mx0[0m, [0;36mx19[0m, [0;31m#3[0m, [0;31m#32[0m
+[33m   [0m 0x1000033e8 <+64>:  bl     [0;33m0x100003b14[0m    ; symbol stub for: malloc
+[33m   [0m 0x1000033ec <+68>:  str    [0;36mx0[0m, [[0;36msp[0m, [0;31m#0x28[0m]
+[33m   [0m 0x1000033f0 <+72>:  mov    [0;36mw28[0m, [0;36mw19[0m
+[33m   [0m 0x1000033f4 <+76>:  cmp    [0;36mw19[0m, [0;31m#0x1[0m
+[33m   [0m 0x1000033f8 <+80>:  b.lt   [0;33m0x100003418[0m    ; <+112> at fiodict.c:107:20
+[33m   [0m 0x1000033fc <+84>:  mov    [0;36mx20[0m, [0;36mx28[0m
+[33m   [0m 0x100003400 <+88>:  ldr    [0;36mx21[0m, [[0;36msp[0m, [0;31m#0x28[0m]
+[33m   [0m 0x100003404 <+92>:  mov    [0;36mw0[0m, [0;31m#0x1c[0m ; =28 
+[33m   [0m 0x100003408 <+96>:  bl     [0;33m0x100003b14[0m    ; symbol stub for: malloc
+[33m   [0m 0x10000340c <+100>: str    [0;36mx0[0m, [[0;36mx21[0m], [0;31m#0x8[0m
+[33m   [0m 0x100003410 <+104>: subs   [0;36mx20[0m, [0;36mx20[0m, [0;31m#0x1[0m
+[33m   [0m 0x100003414 <+108>: b.ne   [0;33m0x100003404[0m    ; <+92> at fiodict.c:104:22
+[33m   [0m 0x100003418 <+112>: bl     [0;33m0x100001fa4[0m    ; dict_create at dictstruct.c:4
+[33m   [0m 0x10000341c <+116>: str    [0;36mx0[0m, [[0;36msp[0m, [0;31m#0x20[0m]
+[33m   [0m 0x100003420 <+120>: cmp    [0;36mw19[0m, [0;31m#0x1[0m
+[33m   [0m 0x100003424 <+124>: b.lt   [0;33m0x10000356c[0m    ; <+452> at fiodict.c
+[33m   [0m 0x100003428 <+128>: str    [0;36mx19[0m, [[0;36msp[0m, [0;31m#0x10[0m]
+[33m   [0m 0x10000342c <+132>: mov    [0;36mx20[0m, [0;31m#0x0[0m ; =0 
+[33m   [0m 0x100003430 <+136>: mov    [0;36mw24[0m, [0;31m#0x1[0m ; =1 
+[33m   [0m 0x100003434 <+140>: mov    [0;36mx21[0m, [0;31m#0x201[0m ; =513 
+[33m   [0m 0x100003438 <+144>: movk   [0;36mx21[0m, [0;31m#0x1[0m, lsl [0;31m#32[0m
+[33m   [0m 0x10000343c <+148>: adrp   [0;36mx25[0m, 0
+[33m   [0m 0x100003440 <+152>: add    [0;36mx25[0m, [0;36mx25[0m, [0;31m#0xc1e[0m ; "%d"
+[33m   [0m 0x100003444 <+156>: b      [0;33m0x1000034d0[0m    ; <+296> at fiodict.c:112:28
+[33m   [0m 0x100003448 <+160>: lsl    [0;36mx23[0m, [0;36mx20[0m, [0;31m#3[0m
+[33m   [0m 0x10000344c <+164>: ldr    [0;36mx8[0m, [[0;36msp[0m, [0;31m#0x28[0m]
+[33m   [0m 0x100003450 <+168>: ldr    [0;36mx19[0m, [[0;36mx8[0m, [0;36mx23[0m]
+[33m   [0m 0x100003454 <+172>: ldp    [0;36ms0[0m, [0;36ms1[0m, [[0;36mx19[0m]
+[33m   [0m 0x100003458 <+176>: sshll.2d [0;36mv0[0m, [0;36mv0[0m, [0;31m#0x0[0m
+[33m   [0m 0x10000345c <+180>: scvtf  [0;36md0[0m, [0;36md0[0m
+[33m   [0m 0x100003460 <+184>: sshll.2d [0;36mv1[0m, [0;36mv1[0m, [0;31m#0x0[0m
+[33m   [0m 0x100003464 <+188>: scvtf  [0;36md1[0m, [0;36md1[0m
+[33m   [0m 0x100003468 <+192>: ldr    [0;36ms2[0m, [[0;36mx19[0m, [0;31m#0x8[0m]
+[33m   [0m 0x10000346c <+196>: sshll.2d [0;36mv2[0m, [0;36mv2[0m, [0;31m#0x0[0m
+[33m   [0m 0x100003470 <+200>: scvtf  [0;36md2[0m, [0;36md2[0m
+[33m   [0m 0x100003474 <+204>: bl     [0;33m0x100002e70[0m    ; constructor at point3d.c:31
+[33m   [0m 0x100003478 <+208>: mov    [0;36mx26[0m, [0;36mx0[0m
+[33m   [0m 0x10000347c <+212>: ldr    [0;36mx0[0m, [[0;36mx22[0m, [0;36mx23[0m]
+[33m   [0m 0x100003480 <+216>: add    [0;36mx8[0m, [0;36msp[0m, [0;31m#0x34[0m
+[33m   [0m 0x100003484 <+220>: str    [0;36mx8[0m, [[0;36msp[0m]
+[33m   [0m 0x100003488 <+224>: adrp   [0;36mx1[0m, 0
+[33m   [0m 0x10000348c <+228>: add    [0;36mx1[0m, [0;36mx1[0m, [0;31m#0xebd[0m ; "%s"
+[33m   [0m 0x100003490 <+232>: bl     [0;33m0x100003b74[0m    ; symbol stub for: sscanf
+[33m   [0m 0x100003494 <+236>: add    [0;36mx0[0m, [0;36msp[0m, [0;31m#0x34[0m
+[33m   [0m 0x100003498 <+240>: bl     [0;33m0x100003b8c[0m    ; symbol stub for: strdup
+[33m   [0m 0x10000349c <+244>: mov    [0;36mx27[0m, [0;36mx0[0m
+[33m   [0m 0x1000034a0 <+248>: ldp    [0;36mw1[0m, [0;36mw2[0m, [[0;36mx19[0m, [0;31m#0xc[0m]
+[33m   [0m 0x1000034a4 <+252>: ldp    [0;36mw3[0m, [0;36mw4[0m, [[0;36mx19[0m, [0;31m#0x14[0m]
+[33m   [0m 0x1000034a8 <+256>: ldr    [0;36mx0[0m, [[0;36msp[0m, [0;31m#0x18[0m]
+[33m   [0m 0x1000034ac <+260>: bl     [0;33m0x100002934[0m    ; constructor_atom at atomstruct.c:5
+[33m   [0m 0x1000034b0 <+264>: str    [0;36mx0[0m, [[0;36mx26[0m]
+[33m   [0m 0x1000034b4 <+268>: ldr    [0;36mx0[0m, [[0;36msp[0m, [0;31m#0x20[0m]
+[33m-> [0m 0x1000034b8 <+272>: mov    [0;36mx1[0m, [0;36mx27[0m
+[33m   [0m 0x1000034bc <+276>: mov    [0;36mx2[0m, [0;36mx26[0m
+[33m   [0m 0x1000034c0 <+280>: bl     [0;33m0x10000203c[0m    ; dict_put at dictstruct.c:35
+[33m   [0m 0x1000034c4 <+284>: add    [0;36mx20[0m, [0;36mx20[0m, [0;31m#0x1[0m
+[33m   [0m 0x1000034c8 <+288>: cmp    [0;36mx20[0m, [0;36mx28[0m
+[33m   [0m 0x1000034cc <+292>: b.eq   [0;33m0x10000354c[0m    ; <+420> at fiodict.c
+[33m   [0m 0x1000034d0 <+296>: ldr    [0;36mx26[0m, [[0;36mx22[0m, [0;36mx20[0m, lsl [0;31m#3[0m]
+[33m   [0m 0x1000034d4 <+300>: cbz    [0;36mx26[0m, [0;33m0x1000034c4[0m ; <+284> at fiodict.c:109:36
+[33m   [0m 0x1000034d8 <+304>: ldrb   [0;36mw8[0m, [[0;36mx26[0m]
+[33m   [0m 0x1000034dc <+308>: cbz    [0;36mw8[0m, [0;33m0x100003448[0m ; <+160> at fiodict.c:129:32
+[33m   [0m 0x1000034e0 <+312>: mov    [0;36mw27[0m, [0;31m#0x0[0m ; =0 
+[33m   [0m 0x1000034e4 <+316>: ldr    [0;36mx8[0m, [[0;36msp[0m, [0;31m#0x28[0m]
+[33m   [0m 0x1000034e8 <+320>: ldr    [0;36mx23[0m, [[0;36mx8[0m, [0;36mx20[0m, lsl [0;31m#3[0m]
+[33m   [0m 0x1000034ec <+324>: add    [0;36mx8[0m, [0;36mx23[0m, [0;36mw27[0m, uxtw [0;31m#2[0m
+[33m   [0m 0x1000034f0 <+328>: str    [0;36mx8[0m, [[0;36msp[0m]
+[33m   [0m 0x1000034f4 <+332>: mov    [0;36mx0[0m, [0;36mx26[0m
+[33m   [0m 0x1000034f8 <+336>: mov    [0;36mx1[0m, [0;36mx25[0m
+[33m   [0m 0x1000034fc <+340>: bl     [0;33m0x100003b74[0m    ; symbol stub for: sscanf
+[33m   [0m 0x100003500 <+344>: cmp    [0;36mw0[0m, [0;31m#0x1[0m
+[33m   [0m 0x100003504 <+348>: cinc   [0;36mw27[0m, [0;36mw27[0m, eq
+[33m   [0m 0x100003508 <+352>: ldrb   [0;36mw8[0m, [[0;36mx26[0m]
+[33m   [0m 0x10000350c <+356>: cmp    [0;36mw8[0m, [0;31m#0x20[0m
+[33m   [0m 0x100003510 <+360>: lsl    [0;36mx8[0m, [0;36mx24[0m, [0;36mx8[0m
+[33m   [0m 0x100003514 <+364>: and    [0;36mx8[0m, [0;36mx8[0m, [0;36mx21[0m
+[33m   [0m 0x100003518 <+368>: ccmp   [0;36mx8[0m, [0;31m#0x0[0m, [0;31m#0x4[0m, ls
+[33m   [0m 0x10000351c <+372>: b.ne   [0;33m0x10000352c[0m    ; <+388> at fiodict.c:126:20
+[33m   [0m 0x100003520 <+376>: add    [0;36mx26[0m, [0;36mx26[0m, [0;31m#0x1[0m
+[33m   [0m 0x100003524 <+380>: b      [0;33m0x100003508[0m    ; <+352> at fiodict.c:123:20
+[33m   [0m 0x100003528 <+384>: add    [0;36mx26[0m, [0;36mx26[0m, [0;31m#0x1[0m
+[33m   [0m 0x10000352c <+388>: ldrb   [0;36mw8[0m, [[0;36mx26[0m]
+[33m   [0m 0x100003530 <+392>: cmp    [0;36mw8[0m, [0;31m#0x20[0m
+[33m   [0m 0x100003534 <+396>: ccmp   [0;36mw8[0m, [0;31m#0x9[0m, [0;31m#0x4[0m, ne
+[33m   [0m 0x100003538 <+400>: b.eq   [0;33m0x100003528[0m    ; <+384> at fiodict.c:127:21
+[33m   [0m 0x10000353c <+404>: cmp    [0;36mw8[0m, [0;31m#0x0[0m
+[33m   [0m 0x100003540 <+408>: ccmp   [0;36mw27[0m, [0;31m#0x6[0m, [0;31m#0x2[0m, ne
+[33m   [0m 0x100003544 <+412>: b.ls   [0;33m0x1000034ec[0m    ; <+324> at fiodict.c:120:48
+[33m   [0m 0x100003548 <+416>: b      [0;33m0x100003448[0m    ; <+160> at fiodict.c:129:32
+[33m   [0m 0x10000354c <+420>: ldr    [0;36mx8[0m, [[0;36msp[0m, [0;31m#0x10[0m]
+[33m   [0m 0x100003550 <+424>: cmp    [0;36mw8[0m, [0;31m#0x1[0m
+[33m   [0m 0x100003554 <+428>: b.lt   [0;33m0x10000356c[0m    ; <+452> at fiodict.c
+[33m   [0m 0x100003558 <+432>: ldr    [0;36mx20[0m, [[0;36msp[0m, [0;31m#0x28[0m]
+[33m   [0m 0x10000355c <+436>: ldr    [0;36mx0[0m, [[0;36mx20[0m], [0;31m#0x8[0m
+[33m   [0m 0x100003560 <+440>: bl     [0;33m0x100003ad8[0m    ; symbol stub for: free
+[33m   [0m 0x100003564 <+444>: subs   [0;36mx28[0m, [0;36mx28[0m, [0;31m#0x1[0m
+[33m   [0m 0x100003568 <+448>: b.ne   [0;33m0x10000355c[0m    ; <+436> at fiodict.c:143:14
+[33m   [0m 0x10000356c <+452>: ldr    [0;36mx0[0m, [[0;36msp[0m, [0;31m#0x28[0m]
+[33m   [0m 0x100003570 <+456>: bl     [0;33m0x100003ad8[0m    ; symbol stub for: free
+[33m   [0m 0x100003574 <+460>: ldur   [0;36mx8[0m, [[0;36mx29[0m, [0;31m#-0x60[0m]
+[33m   [0m 0x100003578 <+464>: adrp   [0;36mx9[0m, 1
+[33m   [0m 0x10000357c <+468>: ldr    [0;36mx9[0m, [[0;36mx9[0m, [0;31m#0x10[0m]
+[33m   [0m 0x100003580 <+472>: ldr    [0;36mx9[0m, [[0;36mx9[0m]
+[33m   [0m 0x100003584 <+476>: cmp    [0;36mx9[0m, [0;36mx8[0m
+[33m   [0m 0x100003588 <+480>: b.ne   [0;33m0x1000035b0[0m    ; <+520> at fiodict.c
+[33m   [0m 0x10000358c <+484>: ldr    [0;36mx0[0m, [[0;36msp[0m, [0;31m#0x20[0m]
+[33m   [0m 0x100003590 <+488>: ldp    [0;36mx29[0m, [0;36mx30[0m, [[0;36msp[0m, [0;31m#0x1c0[0m]
+[33m   [0m 0x100003594 <+492>: ldp    [0;36mx20[0m, [0;36mx19[0m, [[0;36msp[0m, [0;31m#0x1b0[0m]
+[33m   [0m 0x100003598 <+496>: ldp    [0;36mx22[0m, [0;36mx21[0m, [[0;36msp[0m, [0;31m#0x1a0[0m]
+[33m   [0m 0x10000359c <+500>: ldp    [0;36mx24[0m, [0;36mx23[0m, [[0;36msp[0m, [0;31m#0x190[0m]
+[33m   [0m 0x1000035a0 <+504>: ldp    [0;36mx26[0m, [0;36mx25[0m, [[0;36msp[0m, [0;31m#0x180[0m]
+[33m   [0m 0x1000035a4 <+508>: ldp    [0;36mx28[0m, [0;36mx27[0m, [[0;36msp[0m, [0;31m#0x170[0m]
+[33m   [0m 0x1000035a8 <+512>: add    [0;36msp[0m, [0;36msp[0m, [0;31m#0x1d0[0m
+[33m   [0m 0x1000035ac <+516>: ret    
+[33m   [0m 0x1000035b0 <+520>: bl     [0;33m0x100003a6c[0m    ; symbol stub for: __stack_chk_fail
+(lldb) [1G[2m(lldb) [0m[8Gf
+frame #0: [33m0x00000001000034b8[0m point_3d`load_struct_dict(words=0x0000000128704200, count_el=<unavailable>, val=0x0000000128704080) at [36mfiodict.c[0m:[33m135[0m:[33m9[0m [opt]
+[33m  [0m 132 	        [32mchar[0m *key = strdup(key_buf);
+[33m  [0m 133 	
+[33m  [0m 134 	        (*(p + i))->atom = constructor_atom(val, numbers[i][[31m3[0m], numbers[i][[31m4[0m], numbers[i][[31m5[0m], numbers[i][[31m6[0m]);
+[33m->[0m 135 	        [4mdict_put[0m(dict, ([32mvoid[0m *)key, ([32mvoid[0m *)*(p + i));
+[33m  [0m 136 	        [35m// print_point(*(p + i), val);[0m
+[33m  [0m 137 	        [35m//  dict_feach(dict);[0m
+[33m  [0m 138 	    }
+(lldb) [1G[2m(lldb) [0m[8Gregister read 
+General Purpose Registers:
+        x0 = 0x0000000128605f90
+        x1 = 0x0000000100031000
+        x2 = 0x0000000128704530
+        x3 = 0x0000000000000004
+        x4 = 0x0000000000000001
+        x5 = 0x0000000000000003
+        x6 = 0x0000000000000000
+        x7 = 0x0000000000000000
+        x8 = 0x000000000000b60a
+        x9 = 0x0000000000000103
+       x10 = 0x0000000000000004
+       x11 = 0x0000000000028c00
+       x12 = 0x0000000000000400
+       x13 = 0x0000000000000003
+       x14 = 0x0000000128700000
+       x15 = 0x0000000000010000
+       x16 = 0xd796000100024080
+       x17 = 0x0000000000000000
+       x18 = 0x0000000000000000
+       x19 = 0x00000001286055b0
+       x20 = 0x0000000000000001
+       x21 = 0x0000000100000201  point_3d`_mh_execute_header + 513
+       x22 = 0x0000000128704200
+       x23 = 0x0000000000000008
+       x24 = 0x0000000000000001
+       x25 = 0x0000000100003c1e  "%d"
+       x26 = 0x0000000129c04080
+       x27 = 0x0000000129b040b0
+       x28 = 0x0000000000000064
+        fp = 0x000000016fdfec70
+        lr = 0x00000001000034b0  point_3d`load_struct_dict + 264 at fiodict.c:134:26
+        sp = 0x000000016fdfeab0
+        pc = 0x00000001000034b8  point_3d`load_struct_dict + 272 at fiodict.c:135:9
+      cpsr = 0x80001000
+
+(lldb) [1G[2m(lldb) [0m[8Gз [1G[2m(lldb) [0m[9G[K[1G[2m(lldb) [0m[8Gp p
+[0;1;31merror: [0mCouldn't materialize: couldn't get the value of variable p: no location, value may have been optimized out
+error: errored out in DoExecute, couldn't PrepareToExecuteJITExpression
+(lldb) [1G[2m(lldb) [0m[8Gкуп[K[1G[2m(lldb) [0m[10G[K[1G[2m(lldb) [0m[9G[K[1G[2m(lldb) [0m[8Gregister read
+General Purpose Registers:
+        x0 = 0x0000000128605f90
+        x1 = 0x0000000100031000
+        x2 = 0x0000000128704530
+        x3 = 0x0000000000000004
+        x4 = 0x0000000000000001
+        x5 = 0x0000000000000003
+        x6 = 0x0000000000000000
+        x7 = 0x0000000000000000
+        x8 = 0x000000000000b60a
+        x9 = 0x0000000000000103
+       x10 = 0x0000000000000004
+       x11 = 0x0000000000028c00
+       x12 = 0x0000000000000400
+       x13 = 0x0000000000000003
+       x14 = 0x0000000128700000
+       x15 = 0x0000000000010000
+       x16 = 0xd796000100024080
+       x17 = 0x0000000000000000
+       x18 = 0x0000000000000000
+       x19 = 0x00000001286055b0
+       x20 = 0x0000000000000001
+       x21 = 0x0000000100000201  point_3d`_mh_execute_header + 513
+       x22 = 0x0000000128704200
+       x23 = 0x0000000000000008
+       x24 = 0x0000000000000001
+       x25 = 0x0000000100003c1e  "%d"
+       x26 = 0x0000000129c04080
+       x27 = 0x0000000129b040b0
+       x28 = 0x0000000000000064
+        fp = 0x000000016fdfec70
+        lr = 0x00000001000034b0  point_3d`load_struct_dict + 264 at fiodict.c:134:26
+        sp = 0x000000016fdfeab0
+        pc = 0x00000001000034b8  point_3d`load_struct_dict + 272 at fiodict.c:135:9
+      cpsr = 0x80001000
+
+(lldb) [1G[2m(lldb) [0m[8Gf
+frame #0: [33m0x00000001000034b8[0m point_3d`load_struct_dict(words=0x0000000128704200, count_el=<unavailable>, val=0x0000000128704080) at [36mfiodict.c[0m:[33m135[0m:[33m9[0m [opt]
+[33m  [0m 132 	        [32mchar[0m *key = strdup(key_buf);
+[33m  [0m 133 	
+[33m  [0m 134 	        (*(p + i))->atom = constructor_atom(val, numbers[i][[31m3[0m], numbers[i][[31m4[0m], numbers[i][[31m5[0m], numbers[i][[31m6[0m]);
+[33m->[0m 135 	        [4mdict_put[0m(dict, ([32mvoid[0m *)key, ([32mvoid[0m *)*(p + i));
+[33m  [0m 136 	        [35m// print_point(*(p + i), val);[0m
+[33m  [0m 137 	        [35m//  dict_feach(dict);[0m
+[33m  [0m 138 	    }
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 39904 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x00000001000034c4[0m point_3d`load_struct_dict(words=0x0000000128704200, count_el=<unavailable>, val=0x0000000128704080) at [36mfiodict.c[0m:[33m109[0m:[33m36[0m [opt]
+[33m  [0m 106 	    Point3d **p = malloc([32msizeof[0m(Point3d *) * count_el);
+[33m  [0m 107 	    mkDict *dict = dict_create();
+[33m  [0m 108 	
+[33m->[0m 109 	    [32mfor[0m ([32mint[0m i = [31m0[0m; i < count_el; i[4m++[0m)
+[33m  [0m 110 	    {
+[33m  [0m 111 	        [32mint[0m count = [31m0[0m;
+[33m  [0m 112 	        [32mconst[0m [32mchar[0m *line = *(words + i);
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 39904 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x00000001000034d0[0m point_3d`load_struct_dict(words=0x0000000128704200, count_el=<unavailable>, val=0x0000000128704080) at [36mfiodict.c[0m:[33m112[0m:[33m28[0m [opt]
+[33m  [0m 109 	    [32mfor[0m ([32mint[0m i = [31m0[0m; i < count_el; i++)
+[33m  [0m 110 	    {
+[33m  [0m 111 	        [32mint[0m count = [31m0[0m;
+[33m->[0m 112 	        [32mconst[0m [32mchar[0m *line = [4m*[0m(words + i);
+[33m  [0m 113 	        [32mif[0m (line == NULL)
+[33m  [0m 114 	        {
+[33m  [0m 115 	            [32mcontinue[0m;
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gn
+Process 39904 stopped
+* thread #1, queue = [32m'com.apple.main-thread'[0m, stop reason = [31mstep over[0m
+    frame #0: [33m0x00000001000034d4[0m point_3d`load_struct_dict(words=0x0000000128704200, count_el=<unavailable>, val=0x0000000128704080) at [36mfiodict.c[0m:[33m113[0m:[33m13[0m [opt]
+[33m  [0m 110 	    {
+[33m  [0m 111 	        [32mint[0m count = [31m0[0m;
+[33m  [0m 112 	        [32mconst[0m [32mchar[0m *line = *(words + i);
+[33m->[0m 113 	        [32mif[0m ([4mline[0m == NULL)
+[33m  [0m 114 	        {
+[33m  [0m 115 	            [32mcontinue[0m;
+[33m  [0m 116 	        }
+Target 0: (point_3d) stopped.
+(lldb) [1G[2m(lldb) [0m[8Gp line
+(const char *) 0x00000001287047f0 "key00000000000000000000000000097\t:\t170\t536\t840\t\t10 12 3 1\n"
+(lldb) [1G[2m(lldb) [0m[8Gq
+Quitting LLDB will kill one or more processes. Do you really want to proceed: [Y/n] y
