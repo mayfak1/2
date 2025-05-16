@@ -1,5 +1,5 @@
 #pragma once
-
+#include "point3d.h"
 #include <stdbool.h>
 #include <stdlib.h>
 #include <stdio.h>

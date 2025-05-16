@@ -82,6 +82,15 @@ void list_f(FILE *f, unsigned int *val, int count_el)
     for (int i = 0; i < count_el; i++)
     {
         words[i] = malloc(sizeof(char) * 300);
+        if (words[i] == NULL)
+        {
+            for (int j = 0; j < i; j++)
+            {
+                free(words[j]);
+            }
+            free(words);
+            exit(EXIT_FAILURE);
+        }
     }
     for (int i = 0; i < count_el; i++)
     {

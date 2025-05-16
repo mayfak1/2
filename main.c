@@ -59,7 +59,7 @@ int main(int argc, char *argv[])
       printf("remove key0\n");
       dict_remove(dict, "key0");
       dict_feach(dict);
-      free(dict);
+      dict_free(dict);
     }
     if (*(*(argv + 1) + 1) == 'i')
     {

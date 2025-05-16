@@ -26,7 +26,15 @@ void dict_free(mkDict *dt)
     mkPair *temp = begin;
     begin = begin->next;
     free(temp->key);
-    free(temp->value);
+    if (((Point3d *)temp->value)->a != -3)
+    {
+      destructor_atom((((Point3d *)temp->value)->atom));
+      destructor((Point3d *)temp->value);
+    }
+    else
+    {
+      free(temp->value);
+    }
     free(temp);
   }
   free(dt);
